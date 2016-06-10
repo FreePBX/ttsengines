@@ -3,13 +3,13 @@
 # For licensing information, please see the file named LICENSE located in the module directory
 #
 # FreePBX language template for ttsengines
-# Copyright (C) 2008-2015 Sangoma, Inc.
+# Copyright (C) 2008-2016 Sangoma, Inc.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-20 22:03-0400\n"
+"POT-Creation-Date: 2016-06-10 12:06-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,23 +17,33 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: page.ttsengines.php:105
 msgid "Add Engine"
 msgstr ""
 
+#: ttsengines.i18n.php:8
+msgid "Allows you to configure text to speech engines"
+msgstr ""
+
+#: functions.inc.php:69
 msgid ""
 "Choose either the free Flite engine (requires flite and app_flite) or the "
 "paid Cepstral engine (requires app_cepstral)"
 msgstr ""
 
+#: Ttsengines.class.php:25
 msgid "Delete"
 msgstr ""
 
+#: page.ttsengines.php:58
 msgid "Engine Name"
 msgstr ""
 
+#: page.ttsengines.php:82
 msgid "Engine Path"
 msgstr ""
 
+#: page.ttsengines.php:21
 msgid ""
 "On this page you can manage text to speech engines on your system. When you "
 "add an engine you give it a name, and the full path to the engine on your "
@@ -41,23 +51,39 @@ msgid ""
 "page."
 msgstr ""
 
+#: Ttsengines.class.php:30
 msgid "Reset"
 msgstr ""
 
+#: ttsengines.i18n.php:6
+#: ttsengines.i18n.php:12
+msgid "Settings"
+msgstr ""
+
+#: Ttsengines.class.php:35
 msgid "Submit"
 msgstr ""
 
+#: ttsengines.i18n.php:4
+#: ttsengines.i18n.php:10
+msgid "Text To Speech Engines"
+msgstr ""
+
+#: page.ttsengines.php:22
 msgid "Text to Speech Engines"
 msgstr ""
 
+#: functions.inc.php:69
 msgid "Text-to-Speech Engine:"
 msgstr ""
 
+#: page.ttsengines.php:94
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
 msgstr ""
 
+#: page.ttsengines.php:70
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
 "page so you can select which engine you want to play your"
