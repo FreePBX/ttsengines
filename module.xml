@@ -1,0 +1,34 @@
+<module>
+	<rawname>ttsengines</rawname>
+	<name>Text To Speech Engines</name>
+	<version>13.0.4.1</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>AGPLv3</license>
+	<licenselink>http://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
+	<repo>standard</repo>
+	<description>Allows you to configure text to speech engines</description>
+	<category>Settings</category>
+	<menuitems>
+		<ttsengines>Text To Speech Engines</ttsengines>
+	</menuitems>
+	<location>release/2.11/ttsengines-2.11.0.1.tgz</location>
+	<supported>
+		<version>13.0</version>
+	</supported>
+	<depends>
+	</depends>
+	<changelog>
+		*13.0.4.1* FREEPBX-10214 Fix edit
+		*13.0.4* FREEPBX-10214 Fix submit and delete
+		*13.0.3* FREEPBX-9746 Submit button missing from Text to Speech engines add-edit
+		*13.0.2* Finish 13 skinning
+		*13.0.1alpha1* Visual changes for 13
+		*2.11.0.3* Add license file
+		*2.11.0.0* Release for 2.11
+		*2.10.0.3* Security update; downstream changes
+		*2.10.0.2* Security update; downstream changes
+		*2.10.0.1* Includes license information
+		*2.10.0* version bump
+	</changelog>
+	<md5sum>d8f07d5f19d2bc1d5abe583a54415ba2</md5sum>
+</module>

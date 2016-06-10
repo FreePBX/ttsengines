@@ -1,0 +1,1 @@
+insert into admin (variable, value) values('flite', '/usr/bin/flite') ;

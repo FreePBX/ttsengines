@@ -1,0 +1,99 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for ttsengines
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-20 22:03-0400\n"
+"PO-Revision-Date: 2016-06-07 08:31+0200\n"
+"Last-Translator: Ernesto <ecasas@sangoma.com>\n"
+"Language-Team: Spanish "
+"<http://weblate.freepbx.org/projects/fpbxc/ttsengines/es_ES/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4\n"
+
+msgid "Add Engine"
+msgstr "Añadir Motor"
+
+msgid ""
+"Choose either the free Flite engine (requires flite and app_flite) or the "
+"paid Cepstral engine (requires app_cepstral)"
+msgstr ""
+"Elija el motor libre Flite  (requiere flite y app_flite) o el motor de "
+"Cepstral pagado (requiere app_cepstral)"
+
+msgid "Delete"
+msgstr "Borrar"
+
+msgid "Engine Name"
+msgstr ""
+
+msgid "Engine Path"
+msgstr ""
+
+msgid ""
+"On this page you can manage text to speech engines on your system. When you "
+"add an engine you give it a name, and the full path to the engine on your "
+"system. After doing this the engine will be available on the text to speech "
+"page."
+msgstr ""
+"En esta página usted puede manejar texto para los motores de voz en su "
+"sistema. Cuando se agrega un motor que le des un nombre y la ruta completa "
+"del motor en su sistema. Después de hacer esto, el motor estará disponible "
+"en el texto a la página del habla."
+
+msgid "Reset"
+msgstr "Reinicio"
+
+msgid "Submit"
+msgstr "Enviar"
+
+msgid "Text to Speech Engines"
+msgstr "Motor Text To Speeach"
+
+msgid "Text-to-Speech Engine:"
+msgstr "Motor Text-to-Speech:"
+
+msgid ""
+"The full path to the binary of your text to speech engine. For example: /usr/"
+"sbin/magic_speech_engine."
+msgstr ""
+"La ruta completa al binario del motor text to speech. Por ejemplo: /usr/sbin/"
+"magic_speech_engine."
+
+msgid ""
+"The name you enter will be shown in a drop down box on the Text to Speech "
+"page so you can select which engine you want to play your"
+msgstr ""
+
+#~ msgid "Allows you to configure text to speech engines"
+#~ msgstr "Permite configurar el texto para los motores de voz"
+
+#~ msgid "Engine name"
+#~ msgstr "Nombre Motor"
+
+#~ msgid "Engine path"
+#~ msgstr "Ruta Motor"
+
+#~ msgid "Settings"
+#~ msgstr "Configuraciones"
+
+#~ msgid "Text To Speech Engines"
+#~ msgstr "Motor Text To Speeach"
+
+#~ msgid ""
+#~ "The name you enter will be shown in a drop down box on the Text to Speech "
+#~ "page so you can select which engine you want to play your text."
+#~ msgstr ""
+#~ "El nombre que introduzcas se mostrará en un cuadro desplegable en el Text "
+#~ "to Speech para que pueda seleccionar el motor que desea reproducir su "
+#~ "texto."

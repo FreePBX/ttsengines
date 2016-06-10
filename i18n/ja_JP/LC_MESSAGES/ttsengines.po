@@ -1,0 +1,95 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for ttsengines
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-20 22:03-0400\n"
+"PO-Revision-Date: 2015-06-29 14:21+0200\n"
+"Last-Translator: Kevin <kevin@qloog.com>\n"
+"Language-Team: Japanese <http://weblate.freepbx.org/projects/fpbxc/"
+"ttsengines/ja_JP/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.2-dev\n"
+
+msgid "Add Engine"
+msgstr "エンジンを追加"
+
+msgid ""
+"Choose either the free Flite engine (requires flite and app_flite) or the "
+"paid Cepstral engine (requires app_cepstral)"
+msgstr ""
+"無料のFliteエンジン (flite、app_fliteが必要) か、有料のCepstralエンジン "
+"(app_cepstralが必要) を選択してください"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Engine Name"
+msgstr ""
+
+msgid "Engine Path"
+msgstr ""
+
+msgid ""
+"On this page you can manage text to speech engines on your system. When you "
+"add an engine you give it a name, and the full path to the engine on your "
+"system. After doing this the engine will be available on the text to speech "
+"page."
+msgstr ""
+"このページでは、合成音声 (TTS) のエンジンを管理できます。エンジンを追加する場"
+"合は、名前を付けてエンジンへのフルパスを指定します。この情報を設定すると、次"
+"のページでエンジンが使えるようになります。"
+
+msgid "Reset"
+msgstr ""
+
+msgid "Submit"
+msgstr "送信"
+
+msgid "Text to Speech Engines"
+msgstr "合成音声エンジン"
+
+msgid "Text-to-Speech Engine:"
+msgstr "合成音声エンジン:"
+
+msgid ""
+"The full path to the binary of your text to speech engine. For example: /usr/"
+"sbin/magic_speech_engine."
+msgstr "合成音声エンジンへのフルパス。例えば、 /usr/sbin/magic_speech など。"
+
+msgid ""
+"The name you enter will be shown in a drop down box on the Text to Speech "
+"page so you can select which engine you want to play your"
+msgstr ""
+
+#~ msgid "Allows you to configure text to speech engines"
+#~ msgstr "合成音声(TTS)のエンジンを設定できます"
+
+#~ msgid "Engine name"
+#~ msgstr "エンジン名"
+
+#~ msgid "Engine path"
+#~ msgstr "エンジンのパス"
+
+#~ msgid "Settings"
+#~ msgstr "設定"
+
+#~ msgid "Text To Speech Engines"
+#~ msgstr "合成音声エンジン"
+
+#~ msgid ""
+#~ "The name you enter will be shown in a drop down box on the Text to Speech "
+#~ "page so you can select which engine you want to play your text."
+#~ msgstr ""
+#~ "合成音声のページで、この名前が選択できるようになりますので、任意のエンジン"
+#~ "を合成音声機能を利用できます。"
