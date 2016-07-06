@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-10 12:06-0700\n"
+"POT-Creation-Date: 2016-07-06 13:54-0700\n"
 "PO-Revision-Date: 2016-06-07 08:31+0200\n"
 "Last-Translator: Ernesto <ecasas@sangoma.com>\n"
 "Language-Team: Spanish <http://weblate.freepbx.org/projects/fpbxc/ttsengines/"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.4\n"
 
-#: page.ttsengines.php:105
+#: page.ttsengines.php:111
 msgid "Add Engine"
 msgstr "Añadir Motor"
 
@@ -45,7 +45,7 @@ msgstr "Borrar"
 msgid "Engine Name"
 msgstr ""
 
-#: page.ttsengines.php:82
+#: page.ttsengines.php:88
 msgid "Engine Path"
 msgstr ""
 
@@ -85,7 +85,7 @@ msgstr "Motor Text To Speeach"
 msgid "Text-to-Speech Engine:"
 msgstr "Motor Text-to-Speech:"
 
-#: page.ttsengines.php:94
+#: page.ttsengines.php:100
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
@@ -93,7 +93,7 @@ msgstr ""
 "La ruta completa al binario del motor text to speech. Por ejemplo: /usr/sbin/"
 "magic_speech_engine."
 
-#: page.ttsengines.php:70
+#: page.ttsengines.php:76
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
 "page so you can select which engine you want to play your"
