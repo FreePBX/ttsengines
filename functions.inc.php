@@ -7,18 +7,7 @@ if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed');}
 
 function ttsengines_get_all_engines()
 {
-	global $db;
-	
-	$sql = "select * from ttsengines";
-
-	$results = $db->getAll($sql, DB_FETCHMODE_ASSOC);
-
-	if (DB::IsError($results)) 
-	{
-		die_freepbx($result->getDebugInfo());
-	}
-
-	return $results;
+	return FreePBX::Ttsengines()->listAll();
 }
 
 function ttsengines_add_engine($enginename, $enginepath)
@@ -55,17 +44,17 @@ function ttsengines_get_engine_path($enginename)
 
 
 function ttsengines_hook_grammar($viewing_itemid, $target_menuid) {
-   	
+
     global $db;
     $engines = ttsengines_get_all_engines();
-    
+
     //Determine which engine is currently selected
     $sql = "select tts_engine from grammar_config";
     $selected_ttsengine = $db->getRow($sql, DB_FETCHMODE_ASSOC);
-	
+
     if ($target_menuid = "grammar")
     {
-    
+
     $html.='<tr><td><a href=# class="info">'._("Text-to-Speech Engine:").'<span>'._("Choose either the free Flite engine (requires flite and app_flite) or the paid Cepstral engine (requires app_cepstral)").'<br></span></a></td><td align="right">';
     $html.='<select name="tts_engine" tabindex="'.++$tabindex.'">';
 
@@ -92,7 +81,7 @@ function ttsengines_hook_grammar($viewing_itemid, $target_menuid) {
                 $html .= '</option>';
             }
         }
-    
+
         $html .= '</select>';
 		$html.='</td></tr>';
     }

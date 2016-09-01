@@ -50,5 +50,43 @@ class Ttsengines implements \BMO {
     $ret = $stmt->fetchAll(\PDO::FETCH_ASSOC);
     return $ret[0];
   }
-
+	public function ajaxRequest($req, &$setting) {
+		switch ($req) {
+			case 'getJSON':
+				return true;
+			break;
+			default:
+				return false;
+			break;
+		}
+	}
+	public function ajaxHandler(){
+		switch ($_REQUEST['command']) {
+			case 'getJSON':
+				switch ($_REQUEST['jdata']) {
+					case 'grid':
+						return $this->listAll();
+					break;
+					default:
+						return false;
+					break;
+				}
+			break;
+			default:
+				return false;
+			break;
+		}
+	}
+	public function listAll(){
+		$sql = "select * from ttsengines";
+		$stmt = $this->db->prepare($sql);
+		$stmt->execute();
+		$ret = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+		return $ret;
+	}
+	public function getRightNav($request) {
+		if(isset($request['view'])){
+			return load_view(__DIR__.'/views/rnav.php');
+		}
+	}
 }
