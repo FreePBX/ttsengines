@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-06 13:54-0700\n"
+"POT-Creation-Date: 2016-09-16 18:44-0700\n"
 "PO-Revision-Date: 2016-06-07 08:31+0200\n"
 "Last-Translator: Ernesto <ecasas@sangoma.com>\n"
 "Language-Team: Spanish <http://weblate.freepbx.org/projects/fpbxc/ttsengines/"
@@ -21,15 +21,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.4\n"
 
-#: page.ttsengines.php:111
-msgid "Add Engine"
-msgstr "Añadir Motor"
+#: views/grid.php:12
+msgid "Actions"
+msgstr ""
+
+#: views/grid.php:5
+msgid "Add TTS Engine"
+msgstr ""
 
 #: ttsengines.i18n.php:8
 msgid "Allows you to configure text to speech engines"
 msgstr "Permite configurar el texto para los motores de voz"
 
-#: functions.inc.php:69
+#: functions.inc.php:58
 msgid ""
 "Choose either the free Flite engine (requires flite and app_flite) or the "
 "paid Cepstral engine (requires app_cepstral)"
@@ -41,11 +45,15 @@ msgstr ""
 msgid "Delete"
 msgstr "Borrar"
 
-#: page.ttsengines.php:58
+#: views/grid.php:11 views/rnav.php:6
+msgid "Engine"
+msgstr ""
+
+#: views/form.php:21
 msgid "Engine Name"
 msgstr ""
 
-#: page.ttsengines.php:88
+#: views/form.php:51
 msgid "Engine Path"
 msgstr ""
 
@@ -60,6 +68,10 @@ msgstr ""
 "sistema. Cuando se agrega un motor que le des un nombre y la ruta completa "
 "del motor en su sistema. Después de hacer esto, el motor estará disponible "
 "en el texto a la página del habla."
+
+#: views/grid.php:10 views/rnav.php:5
+msgid "Path"
+msgstr ""
 
 #: Ttsengines.class.php:30
 msgid "Reset"
@@ -81,11 +93,11 @@ msgstr "Motor Text To Speeach"
 msgid "Text to Speech Engines"
 msgstr "Motor Text To Speeach"
 
-#: functions.inc.php:69
+#: functions.inc.php:58
 msgid "Text-to-Speech Engine:"
 msgstr "Motor Text-to-Speech:"
 
-#: page.ttsengines.php:100
+#: views/form.php:63
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
@@ -93,11 +105,14 @@ msgstr ""
 "La ruta completa al binario del motor text to speech. Por ejemplo: /usr/sbin/"
 "magic_speech_engine."
 
-#: page.ttsengines.php:76
+#: views/form.php:39
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
 "page so you can select which engine you want to play your"
 msgstr ""
+
+#~ msgid "Add Engine"
+#~ msgstr "Añadir Motor"
 
 #~ msgid "Engine name"
 #~ msgstr "Nombre Motor"

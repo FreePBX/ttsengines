@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-06 13:54-0700\n"
+"POT-Creation-Date: 2016-09-16 18:44-0700\n"
 "PO-Revision-Date: 2015-06-29 14:21+0200\n"
 "Last-Translator: Kevin <kevin@qloog.com>\n"
 "Language-Team: Japanese <http://weblate.freepbx.org/projects/fpbxc/"
@@ -21,15 +21,19 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2.2-dev\n"
 
-#: page.ttsengines.php:111
-msgid "Add Engine"
-msgstr "エンジンを追加"
+#: views/grid.php:12
+msgid "Actions"
+msgstr ""
+
+#: views/grid.php:5
+msgid "Add TTS Engine"
+msgstr ""
 
 #: ttsengines.i18n.php:8
 msgid "Allows you to configure text to speech engines"
 msgstr "合成音声(TTS)のエンジンを設定できます"
 
-#: functions.inc.php:69
+#: functions.inc.php:58
 msgid ""
 "Choose either the free Flite engine (requires flite and app_flite) or the "
 "paid Cepstral engine (requires app_cepstral)"
@@ -41,11 +45,15 @@ msgstr ""
 msgid "Delete"
 msgstr "削除"
 
-#: page.ttsengines.php:58
+#: views/grid.php:11 views/rnav.php:6
+msgid "Engine"
+msgstr ""
+
+#: views/form.php:21
 msgid "Engine Name"
 msgstr ""
 
-#: page.ttsengines.php:88
+#: views/form.php:51
 msgid "Engine Path"
 msgstr ""
 
@@ -59,6 +67,10 @@ msgstr ""
 "このページでは、合成音声 (TTS) のエンジンを管理できます。エンジンを追加する場"
 "合は、名前を付けてエンジンへのフルパスを指定します。この情報を設定すると、次"
 "のページでエンジンが使えるようになります。"
+
+#: views/grid.php:10 views/rnav.php:5
+msgid "Path"
+msgstr ""
 
 #: Ttsengines.class.php:30
 msgid "Reset"
@@ -80,21 +92,24 @@ msgstr "合成音声エンジン"
 msgid "Text to Speech Engines"
 msgstr "合成音声エンジン"
 
-#: functions.inc.php:69
+#: functions.inc.php:58
 msgid "Text-to-Speech Engine:"
 msgstr "合成音声エンジン:"
 
-#: page.ttsengines.php:100
+#: views/form.php:63
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
 msgstr "合成音声エンジンへのフルパス。例えば、 /usr/sbin/magic_speech など。"
 
-#: page.ttsengines.php:76
+#: views/form.php:39
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
 "page so you can select which engine you want to play your"
 msgstr ""
+
+#~ msgid "Add Engine"
+#~ msgstr "エンジンを追加"
 
 #~ msgid "Engine name"
 #~ msgstr "エンジン名"
