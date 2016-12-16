@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-16 18:44-0700\n"
-"PO-Revision-Date: 2016-12-16 00:37+0200\n"
+"PO-Revision-Date: 2016-12-16 00:56+0200\n"
 "Last-Translator: Alexander <alexander.schley@paranagua.pr.gov.br>\n"
 "Language-Team: Portuguese (Brazil) "
 "<http://weblate.freepbx.org/projects/freepbx/ttsengines/pt_BR/>\n"
@@ -27,19 +27,19 @@ msgstr "Ações"
 
 #: views/grid.php:5
 msgid "Add TTS Engine"
-msgstr "Adicionar Motor TTS"
+msgstr "Adicionar Mecanismo de Texto em Voz"
 
 #: ttsengines.i18n.php:8
 msgid "Allows you to configure text to speech engines"
-msgstr "Permite configurar o texto para mecanismos de voz"
+msgstr "Permite configurar o mecanismo de texto em voz"
 
 #: functions.inc.php:58
 msgid ""
 "Choose either the free Flite engine (requires flite and app_flite) or the "
 "paid Cepstral engine (requires app_cepstral)"
 msgstr ""
-"Escolha o motor gratuito Flite  (requer flite e app_flite) ou o motor pago "
-"Cepstral (requer app_cepstral)"
+"Escolha o mecanismo gratuito Flite  (requer flite e app_flite) ou o "
+"mecanismo pago Cepstral (requer app_cepstral)"
 
 #: Ttsengines.class.php:25
 msgid "Delete"
@@ -47,15 +47,15 @@ msgstr "Apagar"
 
 #: views/grid.php:11 views/rnav.php:6
 msgid "Engine"
-msgstr "Motor"
+msgstr "Mecanismo"
 
 #: views/form.php:21
 msgid "Engine Name"
-msgstr "Nome do Motor"
+msgstr "Nome do Mecanismo"
 
 #: views/form.php:51
 msgid "Engine Path"
-msgstr "Caminho do Motor"
+msgstr "Caminho do Mecanismo"
 
 #: page.ttsengines.php:21
 msgid ""
@@ -64,10 +64,10 @@ msgid ""
 "system. After doing this the engine will be available on the text to speech "
 "page."
 msgstr ""
-"Nesta página, você pode gerenciar texto para os motores de voz em seu "
-"sistema. Quando você adiciona um motor, dá um nome e o caminho completo para "
-"o mecanismo em seu sistema. Depois de fazer isso, o motor estará disponível "
-"na página de texto para fala."
+"Nesta página, você pode gerenciar o mecanismo de texto em voz em seu "
+"sistema. Quando você adiciona um mecanismo dê um nome e o caminho completo "
+"em seu sistema. Depois de fazer isso, o mecanismo estará disponível na "
+"página de texto em voz."
 
 #: views/grid.php:10 views/rnav.php:5
 msgid "Path"
@@ -87,22 +87,22 @@ msgstr "Enviar"
 
 #: ttsengines.i18n.php:4 ttsengines.i18n.php:10
 msgid "Text To Speech Engines"
-msgstr "Texto para Motores de Voz"
+msgstr "Mecanismos de Texto em Voz"
 
 #: page.ttsengines.php:22
 msgid "Text to Speech Engines"
-msgstr "Texto para Motores de Voz"
+msgstr "Mecanismos de Texto em Voz"
 
 #: functions.inc.php:58
 msgid "Text-to-Speech Engine:"
-msgstr "Texto para Motores-de-Voz:"
+msgstr "Mecanismo de Texto-em-Voz:"
 
 #: views/form.php:63
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
 msgstr ""
-"O caminho completo para o binário de seu texto para motor de voz. Por "
+"O caminho completo para o binário de seu mecanismo de texto em voz. Por "
 "exemplo: /usr/sbin/magic_speech_engine."
 
 #: views/form.php:39
@@ -110,5 +110,5 @@ msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
 "page so you can select which engine you want to play your"
 msgstr ""
-"O nome digitado será exibido em uma caixa suspensa na página Texto para Fala "
+"O nome digitado será exibido em uma caixa suspensa na página Texto em Voz "
 "para que você possa selecionar qual mecanismo deseja"
