@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-16 18:44-0700\n"
-"PO-Revision-Date: 2017-07-17 11:31+0200\n"
+"PO-Revision-Date: 2017-07-17 13:40+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese "
 "<http://weblate.freepbx.org/projects/freepbx/ttsengines/vi/>\n"
@@ -90,20 +90,24 @@ msgstr "Các máy tổng hợp giọng nói Text to Speech"
 
 #: page.ttsengines.php:22
 msgid "Text to Speech Engines"
-msgstr ""
+msgstr "Các máy tổng hợp giọng nói Text to Speech"
 
 #: functions.inc.php:58
 msgid "Text-to-Speech Engine:"
-msgstr ""
+msgstr "Máy tổng hợp giọng nói Text-to-Speech:"
 
 #: views/form.php:63
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
 msgstr ""
+"Đường dẫn đầy đủ đến hệ nhị phân máy tổng hợp giọng nói TTS. Ví dụ: "
+"/usr/sbin/magic_speech_engine."
 
 #: views/form.php:39
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
 "page so you can select which engine you want to play your"
 msgstr ""
+"Tên bạn nhập vô sẽ được hiển thị trong một hộp thoại trên trang Text To "
+"Speech vì vậy bạn có thể chọn máy bạn muốn phát"
