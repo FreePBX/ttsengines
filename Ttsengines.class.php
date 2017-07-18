@@ -16,6 +16,9 @@ class Ttsengines implements \BMO {
 	public function doConfigPageInit($page) {}
 	public function getActionBar($request) {
 		$buttons = array();
+		if(!isset($_GET['view']) || $_GET['view'] != 'form'){
+			return $buttons;
+		}
 		switch($request['display']) {
 			case 'ttsengines':
 				$buttons = array(
