@@ -3,59 +3,59 @@
 # For licensing information, please see the file named LICENSE located in the module directory
 #
 # FreePBX language template for ttsengines
-# Copyright (C) 2008-2015 Sangoma, Inc.
+# Copyright (C) 2008-2016 Sangoma, Inc.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-16 18:44-0700\n"
-"PO-Revision-Date: 2016-12-11 06:30+0200\n"
-"Last-Translator: Ernesto <ecasas@sangoma.com>\n"
-"Language-Team: Spanish "
-"<http://weblate.freepbx.org/projects/freepbx/ttsengines/es_ES/>\n"
-"Language: es_ES\n"
+"PO-Revision-Date: 2017-07-17 13:40+0200\n"
+"Last-Translator: PETER <ftek@ymail.com>\n"
+"Language-Team: Vietnamese "
+"<http://weblate.freepbx.org/projects/freepbx/ttsengines/vi/>\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2.4\n"
 
 #: views/grid.php:12
 msgid "Actions"
-msgstr "Acciones"
+msgstr "Các thao tác"
 
 #: views/grid.php:5
 msgid "Add TTS Engine"
-msgstr "Agregar Motor TTS"
+msgstr "Thêm Máy tổng hợp giọng nói TTS"
 
 #: ttsengines.i18n.php:8
 msgid "Allows you to configure text to speech engines"
-msgstr "Permite configurar el texto para los motores de voz"
+msgstr "Cho phép bạn cấu hình các máy tổng hợp gióng nói TTS"
 
 #: functions.inc.php:58
 msgid ""
 "Choose either the free Flite engine (requires flite and app_flite) or the "
 "paid Cepstral engine (requires app_cepstral)"
 msgstr ""
-"Elija el motor libre Flite  (requiere flite y app_flite) o el motor de "
-"Cepstral pagado (requiere app_cepstral)"
+"Chọn máy tổng hợp giọng nói Flite miễn phí ( yêu cầu fliet và app_flite) "
+"hoặc máy Cepstral phải trả tiền ( yêu cầu app_cepstral)"
 
 #: Ttsengines.class.php:25
 msgid "Delete"
-msgstr "Borrar"
+msgstr "Xóa"
 
 #: views/grid.php:11 views/rnav.php:6
 msgid "Engine"
-msgstr "Motor"
+msgstr "Máy"
 
 #: views/form.php:21
 msgid "Engine Name"
-msgstr "Nombre Motor"
+msgstr "Tên máy"
 
 #: views/form.php:51
 msgid "Engine Path"
-msgstr "Ruta del Motor"
+msgstr "Đường dẫn của máy"
 
 #: page.ttsengines.php:21
 msgid ""
@@ -64,68 +64,50 @@ msgid ""
 "system. After doing this the engine will be available on the text to speech "
 "page."
 msgstr ""
-"En esta página usted puede manejar texto para los motores de voz en su "
-"sistema. Cuando se agrega un motor que le des un nombre y la ruta completa "
-"del motor en su sistema. Después de hacer esto, el motor estará disponible "
-"en el texto a la página del habla."
+"Tại trang này bạn có thể quản lý các máy tổng hợp giọng nói cho TTS trên hệ "
+"thống của mình. Khi bạn thêm một máy và đặt tên cho nó, sẽ có đường dẫn đầy "
+"đủ tới máy trê hệ thống. Sau đó, máy sẽ khả dụng trên trang text to speech."
 
 #: views/grid.php:10 views/rnav.php:5
 msgid "Path"
-msgstr "Ruta"
+msgstr "Đường dẫn"
 
 #: Ttsengines.class.php:30
 msgid "Reset"
-msgstr "Reinicio"
+msgstr "Cài đặt lại"
 
 #: ttsengines.i18n.php:6 ttsengines.i18n.php:12
 msgid "Settings"
-msgstr "Configuraciones"
+msgstr "Các cài đặt"
 
 #: Ttsengines.class.php:35
 msgid "Submit"
-msgstr "Enviar"
+msgstr "Gửi đi"
 
 #: ttsengines.i18n.php:4 ttsengines.i18n.php:10
 msgid "Text To Speech Engines"
-msgstr "Motor Text To Speeach"
+msgstr "Các máy tổng hợp giọng nói Text to Speech"
 
 #: page.ttsengines.php:22
 msgid "Text to Speech Engines"
-msgstr "Motor Text To Speeach"
+msgstr "Các máy tổng hợp giọng nói Text to Speech"
 
 #: functions.inc.php:58
 msgid "Text-to-Speech Engine:"
-msgstr "Motor Text-to-Speech:"
+msgstr "Máy tổng hợp giọng nói Text-to-Speech:"
 
 #: views/form.php:63
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
 msgstr ""
-"La ruta completa al binario del motor text to speech. Por ejemplo: /usr/sbin/"
-"magic_speech_engine."
+"Đường dẫn đầy đủ đến hệ nhị phân máy tổng hợp giọng nói TTS. Ví dụ: "
+"/usr/sbin/magic_speech_engine."
 
 #: views/form.php:39
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
 "page so you can select which engine you want to play your"
 msgstr ""
-"El nombre que ingrese se mostrará en un cuadro desplegable en la página \""
-"Texto a Voz\" para que pueda seleccionar el motor que desea reproducir su"
-
-#~ msgid "Add Engine"
-#~ msgstr "Añadir Motor"
-
-#~ msgid "Engine name"
-#~ msgstr "Nombre Motor"
-
-#~ msgid "Engine path"
-#~ msgstr "Ruta Motor"
-
-#~ msgid ""
-#~ "The name you enter will be shown in a drop down box on the Text to Speech "
-#~ "page so you can select which engine you want to play your text."
-#~ msgstr ""
-#~ "El nombre que introduzcas se mostrará en un cuadro desplegable en el Text "
-#~ "to Speech para que pueda seleccionar el motor que desea reproducir su "
-#~ "texto."
+"Tên bạn nhập vô sẽ được hiển thị trong một hộp thoại trên trang Text To "
+"Speech vì vậy bạn có thể chọn máy bạn muốn phát"
