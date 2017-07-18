@@ -1,7 +1,7 @@
 <module>
 	<rawname>ttsengines</rawname>
 	<name>Text To Speech Engines</name>
-	<version>13.0.7</version>
+	<version>13.0.7.1</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>AGPLv3</license>
 	<licenselink>http://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
@@ -18,6 +18,7 @@
 	<depends>
 	</depends>
 	<changelog>
+		*13.0.7.1* FREEPBX-15331 Fix delete action
 		*13.0.7* FREEPBX-13017 agg drid, floating rnav
 		*13.0.6* Implement picotts
 		*13.0.5* Open Source Module: https://www.freepbx.org/sangomas-commitment-to-open-source/

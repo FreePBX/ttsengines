@@ -9,15 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-16 18:44-0700\n"
+"POT-Creation-Date: 2017-07-18 13:01-0400\n"
 "PO-Revision-Date: 2016-12-16 00:56+0200\n"
 "Last-Translator: Alexander <alexander.schley@paranagua.pr.gov.br>\n"
-"Language-Team: Portuguese (Brazil) "
-"<http://weblate.freepbx.org/projects/freepbx/ttsengines/pt_BR/>\n"
-"Language: pt_BR\n"
+"Language-Team: Portuguese (Brazil) <http://weblate.freepbx.org/projects/"
+"freepbx/ttsengines/pt_BR/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.4\n"
 
@@ -41,7 +41,7 @@ msgstr ""
 "Escolha o mecanismo gratuito Flite  (requer flite e app_flite) ou o "
 "mecanismo pago Cepstral (requer app_cepstral)"
 
-#: Ttsengines.class.php:25
+#: Ttsengines.class.php:28
 msgid "Delete"
 msgstr "Apagar"
 
@@ -57,7 +57,7 @@ msgstr "Nome do Mecanismo"
 msgid "Engine Path"
 msgstr "Caminho do Mecanismo"
 
-#: page.ttsengines.php:21
+#: page.ttsengines.php:18
 msgid ""
 "On this page you can manage text to speech engines on your system. When you "
 "add an engine you give it a name, and the full path to the engine on your "
@@ -73,15 +73,15 @@ msgstr ""
 msgid "Path"
 msgstr "Caminho"
 
-#: Ttsengines.class.php:30
+#: Ttsengines.class.php:33
 msgid "Reset"
 msgstr "Reiniciar"
 
-#: ttsengines.i18n.php:6 ttsengines.i18n.php:12
+#: ttsengines.i18n.php:6
 msgid "Settings"
 msgstr "Configurações"
 
-#: Ttsengines.class.php:35
+#: Ttsengines.class.php:38
 msgid "Submit"
 msgstr "Enviar"
 
@@ -89,7 +89,7 @@ msgstr "Enviar"
 msgid "Text To Speech Engines"
 msgstr "Mecanismos de Texto em Voz"
 
-#: page.ttsengines.php:22
+#: page.ttsengines.php:19
 msgid "Text to Speech Engines"
 msgstr "Mecanismos de Texto em Voz"
 
