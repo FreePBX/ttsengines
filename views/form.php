@@ -1,5 +1,25 @@
-
-<form class="fpbx-submit" name="frm_ttsengines" action="" method="post" data-fpbx-delete="<?php echo $delurl?>" role="form">
+<?php
+if($all_engines){
+	$enginepaths = array();
+	if(!isset($edit)) {
+		$edit ='';
+	}
+	foreach($all_engines as $tmp_engine){
+		if($edit != $tmp_engine['id']){
+			$enginepaths[] = $tmp_engine['path'];
+		}
+	}
+}
+?>
+<script>
+var enginepaths = [];
+<?php
+if(!empty($enginepaths)){
+	echo "enginepaths = " . json_encode($enginepaths) . ";";
+}
+?>
+</script>
+<form class="fpbx-submit" id="frm_ttsengines" name="frm_ttsengines" action="" method="post" data-fpbx-delete="<?php echo $delurl?>" role="form">
   <?php
     if ($edit)
     {
