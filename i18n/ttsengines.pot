@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-18 13:01-0400\n"
+"POT-Creation-Date: 2017-07-24 15:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: assets/js/ttsengines.js:27
+msgid " already used, please use a different Engine Path."
+msgstr ""
+
 #: views/grid.php:12
 msgid "Actions"
 msgstr ""
 
 #: views/grid.php:5
+#: views/rnav.php:3
 msgid "Add TTS Engine"
 msgstr ""
 
@@ -40,19 +45,23 @@ msgid "Delete"
 msgstr ""
 
 #: views/grid.php:11
-#: views/rnav.php:6
+#: views/rnav.php:16
 msgid "Engine"
 msgstr ""
 
-#: views/form.php:21
+#: views/form.php:41
 msgid "Engine Name"
 msgstr ""
 
-#: views/form.php:51
+#: views/form.php:71
 msgid "Engine Path"
 msgstr ""
 
-#: page.ttsengines.php:18
+#: views/rnav.php:2
+msgid "List TTS Engine"
+msgstr ""
+
+#: page.ttsengines.php:20
 msgid ""
 "On this page you can manage text to speech engines on your system. When you "
 "add an engine you give it a name, and the full path to the engine on your "
@@ -61,8 +70,12 @@ msgid ""
 msgstr ""
 
 #: views/grid.php:10
-#: views/rnav.php:5
+#: views/rnav.php:15
 msgid "Path"
+msgstr ""
+
+#: assets/js/ttsengines.js:24
+msgid "Please enter a valid Engine Path."
 msgstr ""
 
 #: Ttsengines.class.php:33
@@ -82,7 +95,7 @@ msgstr ""
 msgid "Text To Speech Engines"
 msgstr ""
 
-#: page.ttsengines.php:19
+#: page.ttsengines.php:21
 msgid "Text to Speech Engines"
 msgstr ""
 
@@ -90,13 +103,13 @@ msgstr ""
 msgid "Text-to-Speech Engine:"
 msgstr ""
 
-#: views/form.php:63
+#: views/form.php:83
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
 msgstr ""
 
-#: views/form.php:39
+#: views/form.php:59
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
 "page so you can select which engine you want to play your"
