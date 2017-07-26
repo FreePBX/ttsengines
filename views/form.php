@@ -7,15 +7,20 @@ if($all_engines){
 	foreach($all_engines as $tmp_engine){
 		if($edit != $tmp_engine['id']){
 			$enginepaths[] = $tmp_engine['path'];
+			$enginenames[] = $tmp_engine['name'];
 		}
 	}
 }
 ?>
 <script>
 var enginepaths = [];
+var enginenames = [];
 <?php
 if(!empty($enginepaths)){
 	echo "enginepaths = " . json_encode($enginepaths) . ";";
+}
+if(!empty($enginenames)){
+	echo "enginenames = " . json_encode($enginenames) . ";";
 }
 ?>
 </script>

@@ -27,6 +27,14 @@ $(document).ready(function() {
 					return warnInvalid(theForm.enginepath, tmp_path  + _(" already used, please use a different Engine Path."));
 			        }
 		 	}
+			var tmp_name = theForm.enginename.value.trim();
+			if (tmp_name == ""){
+				return warnInvalid(theForm.enginename, _("Please enter a valid Engine Name."));
+			}else{
+				if($.inArray(tmp_name, enginenames) != -1){
+					return warnInvalid(theForm.enginename, tmp_name  + _(" already used, please use a different Engine Name."));
+				}
+			}
 			return true;
 		});
 		$('form').submit(function(e) {
