@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-24 15:29-0400\n"
+"POT-Creation-Date: 2017-08-14 17:55-0400\n"
 "PO-Revision-Date: 2015-06-29 14:21+0200\n"
 "Last-Translator: Kevin <kevin@qloog.com>\n"
 "Language-Team: Japanese <http://weblate.freepbx.org/projects/fpbxc/"
@@ -20,6 +20,10 @@ msgstr ""
 "Language: ja_JP\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2.2-dev\n"
+
+#: assets/js/ttsengines.js:35
+msgid " already used, please use a different Engine Name."
+msgstr ""
 
 #: assets/js/ttsengines.js:27
 msgid " already used, please use a different Engine Path."
@@ -53,11 +57,11 @@ msgstr "削除"
 msgid "Engine"
 msgstr ""
 
-#: views/form.php:41
+#: views/form.php:46
 msgid "Engine Name"
 msgstr ""
 
-#: views/form.php:71
+#: views/form.php:76
 msgid "Engine Path"
 msgstr ""
 
@@ -78,6 +82,10 @@ msgstr ""
 
 #: views/grid.php:10 views/rnav.php:15
 msgid "Path"
+msgstr ""
+
+#: assets/js/ttsengines.js:32
+msgid "Please enter a valid Engine Name."
 msgstr ""
 
 #: assets/js/ttsengines.js:24
@@ -108,13 +116,13 @@ msgstr "合成音声エンジン"
 msgid "Text-to-Speech Engine:"
 msgstr "合成音声エンジン:"
 
-#: views/form.php:83
+#: views/form.php:88
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
 msgstr "合成音声エンジンへのフルパス。例えば、 /usr/sbin/magic_speech など。"
 
-#: views/form.php:59
+#: views/form.php:64
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
 "page so you can select which engine you want to play your"

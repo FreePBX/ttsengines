@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-24 15:29-0400\n"
+"POT-Creation-Date: 2017-08-14 17:55-0400\n"
 "PO-Revision-Date: 2017-07-17 13:40+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese <http://weblate.freepbx.org/projects/freepbx/"
@@ -20,6 +20,10 @@ msgstr ""
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2.4\n"
+
+#: assets/js/ttsengines.js:35
+msgid " already used, please use a different Engine Name."
+msgstr ""
 
 #: assets/js/ttsengines.js:27
 msgid " already used, please use a different Engine Path."
@@ -53,11 +57,11 @@ msgstr "Xóa"
 msgid "Engine"
 msgstr "Máy"
 
-#: views/form.php:41
+#: views/form.php:46
 msgid "Engine Name"
 msgstr "Tên máy"
 
-#: views/form.php:71
+#: views/form.php:76
 msgid "Engine Path"
 msgstr "Đường dẫn của máy"
 
@@ -79,6 +83,10 @@ msgstr ""
 #: views/grid.php:10 views/rnav.php:15
 msgid "Path"
 msgstr "Đường dẫn"
+
+#: assets/js/ttsengines.js:32
+msgid "Please enter a valid Engine Name."
+msgstr ""
 
 #: assets/js/ttsengines.js:24
 msgid "Please enter a valid Engine Path."
@@ -108,7 +116,7 @@ msgstr "Các máy tổng hợp giọng nói Text to Speech"
 msgid "Text-to-Speech Engine:"
 msgstr "Máy tổng hợp giọng nói Text-to-Speech:"
 
-#: views/form.php:83
+#: views/form.php:88
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
@@ -116,7 +124,7 @@ msgstr ""
 "Đường dẫn đầy đủ đến hệ nhị phân máy tổng hợp giọng nói TTS. Ví dụ: /usr/"
 "sbin/magic_speech_engine."
 
-#: views/form.php:59
+#: views/form.php:64
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
 "page so you can select which engine you want to play your"
