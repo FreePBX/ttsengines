@@ -12,7 +12,7 @@ if($("#enginename").val() == "custom") {
 	var input = $("#enginename").data("value");
 	$("#enginename").after(custom);
 	$("#enginename").remove();
-	$("#enginename").val(val);
+	$("#enginename").val(input);
 }
 $(document).ready(function() {
 	var theForm = document.frm_ttsengines;
