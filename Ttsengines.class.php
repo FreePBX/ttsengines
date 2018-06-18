@@ -1,19 +1,21 @@
 <?php
 namespace FreePBX\modules;
+use BMO;
+use FreepBX_Helpers;
+use PDO;
 
-class Ttsengines implements \BMO {
-	public function __construct($freepbx = null) {
-		if ($freepbx == null) {
-			throw new Exception("Not given a FreePBX Object");
-		}
-		$this->FreePBX = $freepbx;
-		$this->db = $freepbx->Database;
-	}
-	public function install() {}
+class Ttsengines extends FreePBX_Helpers implements BMO {
+
+    public function install() {
+        $entry = $this->Database->query("SELECT name FROM ttsengines where name = 'flite'");
+        if(!$entry){
+            $this->Database->query("INSERT INTO ttsengines (name, path) values('flite', '/usr/bin/flite')");
+        }
+    }
+        
 	public function uninstall() {}
-	public function backup() {}
-	public function restore($backup) {}
-	public function doConfigPageInit($page) {}
+    public function doConfigPageInit($page) {}
+        
 	public function getActionBar($request) {
 		$buttons = array();
 		if(!isset($_GET['view']) || $_GET['view'] != 'form'){
@@ -41,52 +43,71 @@ class Ttsengines implements \BMO {
 				if (empty($request['edit'])) {
 					unset($buttons['delete']);
 				}
-			break;
+            break;
+            default:
+                $buttons = [];
+            break;
 		}
 		return $buttons;
 	}
   public function getEngine($id){
-    $dbh = $this->db;
     $sql = 'SELECT * FROM ttsengines WHERE id = :id';
-    $stmt = $dbh->prepare($sql);
+    $stmt = $this->FreePBX->Database->prepare($sql);
     $stmt->execute(array(':id' => $id));
-    $ret = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+    $ret = $stmt->fetchAll(PDO::FETCH_ASSOC);
     return $ret[0];
   }
-	public function ajaxRequest($req, &$setting) {
-		switch ($req) {
-			case 'getJSON':
-				return true;
-			break;
-			default:
-				return false;
-			break;
-		}
-	}
+	public function ajaxRequest($command, &$setting) {
+        if($command === 'getJSON'){
+            return true;
+        }
+        return false;
+    }
+    
 	public function ajaxHandler(){
-		switch ($_REQUEST['command']) {
-			case 'getJSON':
-				switch ($_REQUEST['jdata']) {
-					case 'grid':
-						return $this->listAll();
-					break;
-					default:
-						return false;
-					break;
-				}
-			break;
-			default:
-				return false;
-			break;
-		}
-	}
+        if($_REQUEST['command'] === 'getJSON' && $_REQUEST['jdata'] === 'grid') {
+            return $this->listAll();
+        }
+        return false;
+    }
+    
 	public function listAll(){
-		$sql = "select * from ttsengines";
-		$stmt = $this->db->prepare($sql);
+		$sql = "SELECT * FROM ttsengines";
+		$stmt = $this->FreePBX->Database->prepare($sql);
 		$stmt->execute();
-		$ret = $stmt->fetchAll(\PDO::FETCH_ASSOC);
-		return $ret;
-	}
+		return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function add($name, $path){
+        $sql = "INSERT INTO ttsengines (name, path) values(:name, :path)";
+        $stmt = $this->FreePBX->Database->prepare($sql);
+        $stmt->execute([
+            ':name' => $name,
+            ':path' => $path,
+        ]);
+        return $this;
+    }
+
+    public function delete($name, $path){
+        $sql = "DELETE FROM ttsengines WHERE id = :id";
+        $stmt = $this->FreePBX->Database->prepare($sql);
+        $stmt->execute([
+            ':id' => $id,
+        ]);
+        return $this;
+    }
+
+    public function update($id, $name, $path){
+        $sql = "UPDATE ttsengines SET name = :name, path = :path WHERE id = :id";
+        $stmt = $this->FreePBX->Database->prepare($sql);
+        $stmt->execute([
+            ':id' => $id,
+            ':name' => $name,
+            ':path' => $path,
+        ]);
+        return $this;
+    }
+    
 	public function getRightNav($request) {
 		if(isset($request['view'])){
 			return load_view(__DIR__.'/views/rnav.php');
