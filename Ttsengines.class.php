@@ -112,5 +112,6 @@ class Ttsengines extends FreePBX_Helpers implements BMO {
 		if(isset($request['view'])){
 			return load_view(__DIR__.'/views/rnav.php');
 		}
-	}
+    }
+    
 }
