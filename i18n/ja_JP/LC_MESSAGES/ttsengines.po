@@ -9,15 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-14 17:55-0400\n"
+"POT-Creation-Date: 2018-08-20 14:01-0400\n"
 "PO-Revision-Date: 2015-06-29 14:21+0200\n"
 "Last-Translator: Kevin <kevin@qloog.com>\n"
 "Language-Team: Japanese <http://weblate.freepbx.org/projects/fpbxc/"
 "ttsengines/ja_JP/>\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja_JP\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2.2-dev\n"
 
@@ -41,15 +41,7 @@ msgstr ""
 msgid "Allows you to configure text to speech engines"
 msgstr "合成音声(TTS)のエンジンを設定できます"
 
-#: functions.inc.php:58
-msgid ""
-"Choose either the free Flite engine (requires flite and app_flite) or the "
-"paid Cepstral engine (requires app_cepstral)"
-msgstr ""
-"無料のFliteエンジン (flite、app_fliteが必要) か、有料のCepstralエンジン "
-"(app_cepstralが必要) を選択してください"
-
-#: Ttsengines.class.php:28
+#: Ttsengines.class.php:30
 msgid "Delete"
 msgstr "削除"
 
@@ -92,7 +84,7 @@ msgstr ""
 msgid "Please enter a valid Engine Path."
 msgstr ""
 
-#: Ttsengines.class.php:33
+#: Ttsengines.class.php:35
 msgid "Reset"
 msgstr ""
 
@@ -100,7 +92,7 @@ msgstr ""
 msgid "Settings"
 msgstr "設定"
 
-#: Ttsengines.class.php:38
+#: Ttsengines.class.php:40
 msgid "Submit"
 msgstr "送信"
 
@@ -111,10 +103,6 @@ msgstr "合成音声エンジン"
 #: page.ttsengines.php:21
 msgid "Text to Speech Engines"
 msgstr "合成音声エンジン"
-
-#: functions.inc.php:58
-msgid "Text-to-Speech Engine:"
-msgstr "合成音声エンジン:"
 
 #: views/form.php:88
 msgid ""
@@ -127,6 +115,16 @@ msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
 "page so you can select which engine you want to play your"
 msgstr ""
+
+#~ msgid ""
+#~ "Choose either the free Flite engine (requires flite and app_flite) or the "
+#~ "paid Cepstral engine (requires app_cepstral)"
+#~ msgstr ""
+#~ "無料のFliteエンジン (flite、app_fliteが必要) か、有料のCepstralエンジン "
+#~ "(app_cepstralが必要) を選択してください"
+
+#~ msgid "Text-to-Speech Engine:"
+#~ msgstr "合成音声エンジン:"
 
 #~ msgid "Add Engine"
 #~ msgstr "エンジンを追加"

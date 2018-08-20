@@ -9,15 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-14 17:55-0400\n"
+"POT-Creation-Date: 2018-08-20 14:01-0400\n"
 "PO-Revision-Date: 2016-12-16 00:56+0200\n"
 "Last-Translator: Alexander <alexander.schley@paranagua.pr.gov.br>\n"
 "Language-Team: Portuguese (Brazil) <http://weblate.freepbx.org/projects/"
 "freepbx/ttsengines/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.4\n"
 
@@ -41,15 +41,7 @@ msgstr "Adicionar Mecanismo de Texto em Voz"
 msgid "Allows you to configure text to speech engines"
 msgstr "Permite configurar o mecanismo de texto em voz"
 
-#: functions.inc.php:58
-msgid ""
-"Choose either the free Flite engine (requires flite and app_flite) or the "
-"paid Cepstral engine (requires app_cepstral)"
-msgstr ""
-"Escolha o mecanismo gratuito Flite  (requer flite e app_flite) ou o "
-"mecanismo pago Cepstral (requer app_cepstral)"
-
-#: Ttsengines.class.php:28
+#: Ttsengines.class.php:30
 msgid "Delete"
 msgstr "Apagar"
 
@@ -93,7 +85,7 @@ msgstr ""
 msgid "Please enter a valid Engine Path."
 msgstr ""
 
-#: Ttsengines.class.php:33
+#: Ttsengines.class.php:35
 msgid "Reset"
 msgstr "Reiniciar"
 
@@ -101,7 +93,7 @@ msgstr "Reiniciar"
 msgid "Settings"
 msgstr "Configurações"
 
-#: Ttsengines.class.php:38
+#: Ttsengines.class.php:40
 msgid "Submit"
 msgstr "Enviar"
 
@@ -112,10 +104,6 @@ msgstr "Mecanismos de Texto em Voz"
 #: page.ttsengines.php:21
 msgid "Text to Speech Engines"
 msgstr "Mecanismos de Texto em Voz"
-
-#: functions.inc.php:58
-msgid "Text-to-Speech Engine:"
-msgstr "Mecanismo de Texto-em-Voz:"
 
 #: views/form.php:88
 msgid ""
@@ -132,3 +120,13 @@ msgid ""
 msgstr ""
 "O nome digitado será exibido em uma caixa suspensa na página Texto em Voz "
 "para que você possa selecionar qual mecanismo deseja"
+
+#~ msgid ""
+#~ "Choose either the free Flite engine (requires flite and app_flite) or the "
+#~ "paid Cepstral engine (requires app_cepstral)"
+#~ msgstr ""
+#~ "Escolha o mecanismo gratuito Flite  (requer flite e app_flite) ou o "
+#~ "mecanismo pago Cepstral (requer app_cepstral)"
+
+#~ msgid "Text-to-Speech Engine:"
+#~ msgstr "Mecanismo de Texto-em-Voz:"
