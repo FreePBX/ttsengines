@@ -114,4 +114,13 @@ class Ttsengines extends FreePBX_Helpers implements BMO {
 		}
     }
     
+	public function setDatabase($pdo){
+		$this->Database = $pdo;
+		return $this;
+	}
+	
+	public function resetDatabase(){
+		$this->Database = $this->FreePBX->Database;
+		return $this;
+	}
 }
