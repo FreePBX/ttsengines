@@ -1,7 +1,7 @@
 <module>
 	<rawname>ttsengines</rawname>
 	<name>Text To Speech Engines</name>
-	<version>15.0.2</version>
+	<version>15.0.3</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>AGPLv3</license>
 	<licenselink>https://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
@@ -24,6 +24,7 @@
 	<depends>
 	</depends>
 	<changelog>
+		*15.0.3* FREEPBX-18271 Update CRUD operations 
 		*15.0.2* Packaging of ver 15.0.2
 		*15.0.1* Branch to 15, add Backup
 	</changelog>

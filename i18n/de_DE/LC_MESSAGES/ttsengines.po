@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-20 14:01-0400\n"
+"POT-Creation-Date: 2018-09-28 14:01-0400\n"
 "PO-Revision-Date: 2018-07-18 19:15+0000\n"
 "Last-Translator: Bastian Mertgen <b.mertgen@bastian-mertgen.de>\n"
 "Language-Team: German <http://*/projects/freepbx/ttsengines/de/>\n"
@@ -60,7 +60,7 @@ msgstr ""
 msgid "List TTS Engine"
 msgstr ""
 
-#: page.ttsengines.php:20
+#: page.ttsengines.php:21
 msgid ""
 "On this page you can manage text to speech engines on your system. When you "
 "add an engine you give it a name, and the full path to the engine on your "
@@ -96,7 +96,7 @@ msgstr "Absenden"
 msgid "Text To Speech Engines"
 msgstr ""
 
-#: page.ttsengines.php:21
+#: page.ttsengines.php:22
 msgid "Text to Speech Engines"
 msgstr ""
 

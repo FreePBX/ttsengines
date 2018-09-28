@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-20 14:01-0400\n"
+"POT-Creation-Date: 2018-09-28 14:01-0400\n"
 "PO-Revision-Date: 2017-07-17 13:40+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese <http://weblate.freepbx.org/projects/freepbx/"
@@ -61,7 +61,7 @@ msgstr "Đường dẫn của máy"
 msgid "List TTS Engine"
 msgstr ""
 
-#: page.ttsengines.php:20
+#: page.ttsengines.php:21
 msgid ""
 "On this page you can manage text to speech engines on your system. When you "
 "add an engine you give it a name, and the full path to the engine on your "
@@ -100,7 +100,7 @@ msgstr "Gửi đi"
 msgid "Text To Speech Engines"
 msgstr "Các máy tổng hợp giọng nói Text to Speech"
 
-#: page.ttsengines.php:21
+#: page.ttsengines.php:22
 msgid "Text to Speech Engines"
 msgstr "Các máy tổng hợp giọng nói Text to Speech"
 
