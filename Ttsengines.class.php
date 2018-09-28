@@ -88,7 +88,7 @@ class Ttsengines extends FreePBX_Helpers implements BMO {
         return $this;
     }
 
-    public function delete($name, $path){
+    public function delete($id){
         $sql = "DELETE FROM ttsengines WHERE id = :id";
         $stmt = $this->FreePBX->Database->prepare($sql);
         $stmt->execute([

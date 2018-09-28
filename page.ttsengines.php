@@ -1,33 +1,34 @@
 <?php
+$ttsengines = FreePBX::Ttsengines();
 if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed');}
 	$edit = $_GET['edit'];
 	$enginename = false;
 	$enginepath = false;
 	// Handle adding/updating an engine
 	if ($_REQUEST['action'] == 'delete' && isset($_REQUEST['engineid'])){
-		ttsengines_delete_engine($_REQUEST['engineid']);
+		$ttsengines->delete($_REQUEST['engineid']);
 	}
 	else if ($_POST['edit']){
-		ttsengines_update_engine($_POST['engineid'], $_POST['enginename'], $_POST['enginepath']);
+		$ttsengines->update($_POST['engineid'], $_POST['enginename'], $_POST['enginepath']);
 		redirect_standard();
 	}
 	else if ($_POST['addengine']){
-		ttsengines_add_engine($_POST['enginename'], $_POST['enginepath']);
+		$ttsengines->add($_POST['enginename'], $_POST['enginepath']);
 		redirect_standard();
 	}
 
-	$engines = ttsengines_get_all_engines();
+	$engines = $ttsengines->listAll();
 	$info = show_help(_('On this page you can manage text to speech engines on your system. When you add an engine you give it a name, and the full path to the engine on your system. After doing this the engine will be available on the text to speech page.'));
 	$heading = _('Text to Speech Engines');
 	$delurl = '';
 	$vars = array();
 	if(isset($_REQUEST['view']) && $_REQUEST['view'] == 'form'){
 		if(isset($edit)){
-			$vars['data'] = \FreePBX::Ttsengines()->getEngine($edit);
+			$vars['data'] = $ttsengines->getEngine($edit);
 			$data = $vars['data'];
 			$vars['enginename'] = isset($data['name'])?$data['name']:'';
 			$vars['enginepath'] = isset($data['path'])?$data['path']:'';
-			$vars['delurl'] = '?display=ttsengines&delete=true&engineid='.$edit.'&edit='.$edit;
+			$vars['delurl'] = '?display=ttsengines&action=delete&engineid='.$edit;
 			$vars['edit'] = $edit;
 		}
 		$vars['all_engines'] = $engines;
