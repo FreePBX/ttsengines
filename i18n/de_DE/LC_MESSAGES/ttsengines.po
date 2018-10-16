@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-14 17:55-0400\n"
-"PO-Revision-Date: 2018-07-18 19:15+0000\n"
+"PO-Revision-Date: 2018-10-17 15:00+0000\n"
 "Last-Translator: Bastian Mertgen <b.mertgen@bastian-mertgen.de>\n"
 "Language-Team: German <http://*/projects/freepbx/ttsengines/de/>\n"
 "Language: de_DE\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.19.1\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: assets/js/ttsengines.js:35
 msgid " already used, please use a different Engine Name."
@@ -52,19 +52,19 @@ msgstr "Löschen"
 
 #: views/grid.php:11 views/rnav.php:16
 msgid "Engine"
-msgstr ""
+msgstr "Engine"
 
 #: views/form.php:46
 msgid "Engine Name"
-msgstr ""
+msgstr "Name der Engine"
 
 #: views/form.php:76
 msgid "Engine Path"
-msgstr ""
+msgstr "Pfad zur Engine"
 
 #: views/rnav.php:2
 msgid "List TTS Engine"
-msgstr ""
+msgstr "TTS-Engines auflisten"
 
 #: page.ttsengines.php:20
 msgid ""
