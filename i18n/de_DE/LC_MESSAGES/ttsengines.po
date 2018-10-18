@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-14 17:55-0400\n"
-"PO-Revision-Date: 2018-10-17 15:00+0000\n"
+"PO-Revision-Date: 2018-10-19 15:00+0000\n"
 "Last-Translator: Bastian Mertgen <b.mertgen@bastian-mertgen.de>\n"
 "Language-Team: German <http://*/projects/freepbx/ttsengines/de/>\n"
 "Language: de_DE\n"
@@ -92,7 +92,7 @@ msgstr "Zurücksetzen"
 
 #: ttsengines.i18n.php:6
 msgid "Settings"
-msgstr "Einstellung"
+msgstr "Einstellungen"
 
 #: Ttsengines.class.php:38
 msgid "Submit"
