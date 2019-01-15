@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-28 14:01-0400\n"
+"POT-Creation-Date: 2019-01-15 15:16-0500\n"
 "PO-Revision-Date: 2016-12-11 06:30+0200\n"
 "Last-Translator: Ernesto <ecasas@sangoma.com>\n"
 "Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/"
@@ -53,7 +53,7 @@ msgstr "Motor"
 msgid "Engine Name"
 msgstr "Nombre Motor"
 
-#: views/form.php:76
+#: views/form.php:77
 msgid "Engine Path"
 msgstr "Ruta del Motor"
 
@@ -105,7 +105,7 @@ msgstr "Motor Text To Speeach"
 msgid "Text to Speech Engines"
 msgstr "Motor Text To Speeach"
 
-#: views/form.php:88
+#: views/form.php:89
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
@@ -113,13 +113,21 @@ msgstr ""
 "La ruta completa al binario del motor text to speech. Por ejemplo: /usr/sbin/"
 "magic_speech_engine."
 
-#: views/form.php:64
+#: views/form.php:65
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
-"page so you can select which engine you want to play your"
+"page so you can select which engine you want to play your text."
 msgstr ""
-"El nombre que ingrese se mostrará en un cuadro desplegable en la página "
-"\"Texto a Voz\" para que pueda seleccionar el motor que desea reproducir su"
+"El nombre que introduzcas se mostrará en un cuadro desplegable en el Text to "
+"Speech para que pueda seleccionar el motor que desea reproducir su texto."
+
+#~ msgid ""
+#~ "The name you enter will be shown in a drop down box on the Text to Speech "
+#~ "page so you can select which engine you want to play your"
+#~ msgstr ""
+#~ "El nombre que ingrese se mostrará en un cuadro desplegable en la página "
+#~ "\"Texto a Voz\" para que pueda seleccionar el motor que desea reproducir "
+#~ "su"
 
 #~ msgid ""
 #~ "Choose either the free Flite engine (requires flite and app_flite) or the "
@@ -139,11 +147,3 @@ msgstr ""
 
 #~ msgid "Engine path"
 #~ msgstr "Ruta Motor"
-
-#~ msgid ""
-#~ "The name you enter will be shown in a drop down box on the Text to Speech "
-#~ "page so you can select which engine you want to play your text."
-#~ msgstr ""
-#~ "El nombre que introduzcas se mostrará en un cuadro desplegable en el Text "
-#~ "to Speech para que pueda seleccionar el motor que desea reproducir su "
-#~ "texto."
