@@ -1,7 +1,7 @@
 <module>
 	<rawname>ttsengines</rawname>
 	<name>Text To Speech Engines</name>
-	<version>13.0.7.3</version>
+	<version>13.0.7.4</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>AGPLv3</license>
 	<licenselink>http://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
@@ -18,6 +18,7 @@
 	<depends>
 	</depends>
 	<changelog>
+		*13.0.7.4* Add support for 'polly' (AWS Polly) engine 
 		*13.0.7.3* FREEPBX-15261 FREEPBX-15330
 		*13.0.7.2* FREEPBX-15330 Able to create Empty and Duplicate Text to speech engine.
 		*13.0.7.1* FREEPBX-15331 Fix delete action

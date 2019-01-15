@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-14 17:55-0400\n"
+"POT-Creation-Date: 2019-01-15 15:15-0500\n"
 "PO-Revision-Date: 2018-10-19 15:00+0000\n"
 "Last-Translator: Bastian Mertgen <b.mertgen@bastian-mertgen.de>\n"
 "Language-Team: German <http://*/projects/freepbx/ttsengines/de/>\n"
@@ -58,7 +58,7 @@ msgstr "Engine"
 msgid "Engine Name"
 msgstr "Name der Engine"
 
-#: views/form.php:76
+#: views/form.php:77
 msgid "Engine Path"
 msgstr "Pfad zur Engine"
 
@@ -110,14 +110,14 @@ msgstr ""
 msgid "Text-to-Speech Engine:"
 msgstr ""
 
-#: views/form.php:88
+#: views/form.php:89
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
 msgstr ""
 
-#: views/form.php:64
+#: views/form.php:65
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
-"page so you can select which engine you want to play your"
+"page so you can select which engine you want to play your text."
 msgstr ""

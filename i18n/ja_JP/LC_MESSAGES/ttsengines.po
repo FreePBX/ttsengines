@@ -9,15 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-14 17:55-0400\n"
+"POT-Creation-Date: 2019-01-15 15:15-0500\n"
 "PO-Revision-Date: 2015-06-29 14:21+0200\n"
 "Last-Translator: Kevin <kevin@qloog.com>\n"
 "Language-Team: Japanese <http://weblate.freepbx.org/projects/fpbxc/"
 "ttsengines/ja_JP/>\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja_JP\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2.2-dev\n"
 
@@ -61,7 +61,7 @@ msgstr ""
 msgid "Engine Name"
 msgstr ""
 
-#: views/form.php:76
+#: views/form.php:77
 msgid "Engine Path"
 msgstr ""
 
@@ -116,17 +116,19 @@ msgstr "合成音声エンジン"
 msgid "Text-to-Speech Engine:"
 msgstr "合成音声エンジン:"
 
-#: views/form.php:88
+#: views/form.php:89
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
 msgstr "合成音声エンジンへのフルパス。例えば、 /usr/sbin/magic_speech など。"
 
-#: views/form.php:64
+#: views/form.php:65
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
-"page so you can select which engine you want to play your"
+"page so you can select which engine you want to play your text."
 msgstr ""
+"合成音声のページで、この名前が選択できるようになりますので、任意のエンジンを"
+"合成音声機能を利用できます。"
 
 #~ msgid "Add Engine"
 #~ msgstr "エンジンを追加"
@@ -136,10 +138,3 @@ msgstr ""
 
 #~ msgid "Engine path"
 #~ msgstr "エンジンのパス"
-
-#~ msgid ""
-#~ "The name you enter will be shown in a drop down box on the Text to Speech "
-#~ "page so you can select which engine you want to play your text."
-#~ msgstr ""
-#~ "合成音声のページで、この名前が選択できるようになりますので、任意のエンジン"
-#~ "を合成音声機能を利用できます。"
