@@ -5,7 +5,7 @@ class Restore Extends Base\RestoreBase{
   public function runRestore($jobid){
       $configs = $this->getConfigs();
       foreach ($configs as $engine) {
-        $this->FreePBX->Ttsengines->add($engine['name'],$engine['path']);
+        $this->FreePBX->Ttsengines->addById($engine['id'],$engine['name'],$engine['path']);
       }
   }
 

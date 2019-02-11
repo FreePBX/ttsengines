@@ -12,10 +12,10 @@ class Ttsengines extends FreePBX_Helpers implements BMO {
             $this->Database->query("INSERT INTO ttsengines (name, path) values('flite', '/usr/bin/flite')");
         }
     }
-        
+
 	public function uninstall() {}
     public function doConfigPageInit($page) {}
-        
+
 	public function getActionBar($request) {
 		$buttons = array();
 		if(!isset($_GET['view']) || $_GET['view'] != 'form'){
@@ -63,14 +63,14 @@ class Ttsengines extends FreePBX_Helpers implements BMO {
         }
         return false;
     }
-    
+
 	public function ajaxHandler(){
         if($_REQUEST['command'] === 'getJSON' && $_REQUEST['jdata'] === 'grid') {
             return $this->listAll();
         }
         return false;
     }
-    
+
 	public function listAll(){
 		$sql = "SELECT * FROM ttsengines";
 		$stmt = $this->FreePBX->Database->prepare($sql);
@@ -82,6 +82,17 @@ class Ttsengines extends FreePBX_Helpers implements BMO {
         $sql = "INSERT INTO ttsengines (name, path) values(:name, :path)";
         $stmt = $this->FreePBX->Database->prepare($sql);
         $stmt->execute([
+            ':name' => $name,
+            ':path' => $path,
+        ]);
+        return $this;
+    }
+
+    public function addById($id, $name, $path){
+        $sql = "INSERT INTO ttsengines (id, name, path) values(:id, :name, :path)";
+        $stmt = $this->FreePBX->Database->prepare($sql);
+        $stmt->execute([
+            ':id' => $id,
             ':name' => $name,
             ':path' => $path,
         ]);
@@ -107,18 +118,18 @@ class Ttsengines extends FreePBX_Helpers implements BMO {
         ]);
         return $this;
     }
-    
+
 	public function getRightNav($request) {
 		if(isset($request['view'])){
 			return load_view(__DIR__.'/views/rnav.php');
 		}
     }
-    
+
 	public function setDatabase($pdo){
 		$this->Database = $pdo;
 		return $this;
 	}
-	
+
 	public function resetDatabase(){
 		$this->Database = $this->FreePBX->Database;
 		return $this;
