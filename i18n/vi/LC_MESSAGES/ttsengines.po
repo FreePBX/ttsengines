@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-28 14:01-0400\n"
+"POT-Creation-Date: 2019-01-15 15:16-0500\n"
 "PO-Revision-Date: 2017-07-17 13:40+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese <http://weblate.freepbx.org/projects/freepbx/"
@@ -53,7 +53,7 @@ msgstr "Máy"
 msgid "Engine Name"
 msgstr "Tên máy"
 
-#: views/form.php:76
+#: views/form.php:77
 msgid "Engine Path"
 msgstr "Đường dẫn của máy"
 
@@ -104,7 +104,7 @@ msgstr "Các máy tổng hợp giọng nói Text to Speech"
 msgid "Text to Speech Engines"
 msgstr "Các máy tổng hợp giọng nói Text to Speech"
 
-#: views/form.php:88
+#: views/form.php:89
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
@@ -112,13 +112,18 @@ msgstr ""
 "Đường dẫn đầy đủ đến hệ nhị phân máy tổng hợp giọng nói TTS. Ví dụ: /usr/"
 "sbin/magic_speech_engine."
 
-#: views/form.php:64
+#: views/form.php:65
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
-"page so you can select which engine you want to play your"
+"page so you can select which engine you want to play your text."
 msgstr ""
-"Tên bạn nhập vô sẽ được hiển thị trong một hộp thoại trên trang Text To "
-"Speech vì vậy bạn có thể chọn máy bạn muốn phát"
+
+#~ msgid ""
+#~ "The name you enter will be shown in a drop down box on the Text to Speech "
+#~ "page so you can select which engine you want to play your"
+#~ msgstr ""
+#~ "Tên bạn nhập vô sẽ được hiển thị trong một hộp thoại trên trang Text To "
+#~ "Speech vì vậy bạn có thể chọn máy bạn muốn phát"
 
 #~ msgid ""
 #~ "Choose either the free Flite engine (requires flite and app_flite) or the "

@@ -52,6 +52,7 @@ if(!empty($enginenames)){
                   <option value="flite" <?php echo !empty($enginename) && $enginename == "flite" ?'selected':''?>>flite</option>
                   <option value="swift" <?php echo !empty($enginename) && $enginename == "swift" ?'selected':''?>>swift</option>
                   <option value="pico" <?php echo !empty($enginename) && $enginename == "pico" ?'selected':''?>>pico</option>
+                  <option value="polly" <?php echo !empty($enginename) && $enginename == "polly" ?'selected':''?>>polly</option>
                   <option value="custom" <?php echo !empty($enginename) && !in_array($enginename,array("text2wave","flite","swift","pico")) ?'selected':''?>>custom</option>
                 </select>
               </div>
@@ -61,7 +62,7 @@ if(!empty($enginenames)){
       </div>
       <div class="row">
         <div class="col-md-12">
-          <span id="enginename-help" class="help-block fpbx-help-block"><?php echo _("The name you enter will be shown in a drop down box on the Text to Speech page so you can select which engine you want to play your")?></span>
+          <span id="enginename-help" class="help-block fpbx-help-block"><?php echo _("The name you enter will be shown in a drop down box on the Text to Speech page so you can select which engine you want to play your text.")?></span>
         </div>
       </div>
     </div>
