@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-15 15:15-0500\n"
+"POT-Creation-Date: 2019-02-22 17:44+0530\n"
 "PO-Revision-Date: 2015-06-29 14:21+0200\n"
 "Last-Translator: Kevin <kevin@qloog.com>\n"
 "Language-Team: Japanese <http://weblate.freepbx.org/projects/fpbxc/"
@@ -69,7 +69,7 @@ msgstr ""
 msgid "List TTS Engine"
 msgstr ""
 
-#: page.ttsengines.php:20
+#: page.ttsengines.php:21
 msgid ""
 "On this page you can manage text to speech engines on your system. When you "
 "add an engine you give it a name, and the full path to the engine on your "
@@ -108,7 +108,7 @@ msgstr "送信"
 msgid "Text To Speech Engines"
 msgstr "合成音声エンジン"
 
-#: page.ttsengines.php:21
+#: page.ttsengines.php:22
 msgid "Text to Speech Engines"
 msgstr "合成音声エンジン"
 
