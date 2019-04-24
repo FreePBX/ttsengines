@@ -19,7 +19,7 @@ function ttsengines_update_engine($engineid, $enginename, $enginepath){
 }
 
 function ttsengines_delete_engine($engineid){
-    return FreePBX::Ttsengines()->delete($enginename);
+    return FreePBX::Ttsengines()->delete($engineid);
 }
 
 function ttsengines_get_engine_path($enginename){

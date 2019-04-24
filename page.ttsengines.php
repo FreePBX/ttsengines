@@ -7,6 +7,7 @@ if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed');}
 	// Handle adding/updating an engine
 	if (((isset($_REQUEST['delete']) && $_REQUEST['delete']) || ($_REQUEST['action'] == 'delete'))
 		&& isset($_REQUEST['engineid'])){
+			dbug("YES");
 		ttsengines_delete_engine($_REQUEST['engineid']);
 	}
 	else if ($_POST['edit']){
@@ -33,7 +34,7 @@ if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed');}
 			$vars['edit'] = $edit;
 		}
 		$vars['all_engines'] = $engines;
-		
+
 		$content = load_view(__DIR__.'/views/form.php',$vars);
 	}else{
 		$content = load_view(__DIR__.'/views/grid.php',$vars);

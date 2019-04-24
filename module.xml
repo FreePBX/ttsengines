@@ -1,7 +1,7 @@
 <module>
 	<rawname>ttsengines</rawname>
 	<name>Text To Speech Engines</name>
-	<version>15.0.4.3</version>
+	<version>15.0.4.4</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>AGPLv3</license>
 	<licenselink>https://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
@@ -24,11 +24,12 @@
 	<depends>
 	</depends>
 	<changelog>
-		*15.0.4.3* Fixing FREEPBX-19510 Delete TTS engine from main list and from edit option 
-		*15.0.4.2* fixing legacy restore 
+		*15.0.4.4* Fixing FREEPBX-19841 Delete TTS engine from main list and from edit option
+		*15.0.4.3* Fixing FREEPBX-19510 Delete TTS engine from main list and from edit option
+		*15.0.4.2* fixing legacy restore
 		*15.0.4.1* Fix backup and restore
 		*15.0.4* Add Amazon Polly
-		*15.0.3* FREEPBX-18271 Update CRUD operations 
+		*15.0.3* FREEPBX-18271 Update CRUD operations
 		*15.0.2* Packaging of ver 15.0.2
 		*15.0.1* Branch to 15, add Backup
 	</changelog>
