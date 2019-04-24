@@ -7,7 +7,6 @@ if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed');}
 	// Handle adding/updating an engine
 	if (((isset($_REQUEST['delete']) && $_REQUEST['delete']) || ($_REQUEST['action'] == 'delete'))
 		&& isset($_REQUEST['engineid'])){
-			dbug("YES");
 		ttsengines_delete_engine($_REQUEST['engineid']);
 	}
 	else if ($_POST['edit']){
