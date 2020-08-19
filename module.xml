@@ -1,12 +1,13 @@
 <module>
 	<rawname>ttsengines</rawname>
 	<name>Text To Speech Engines</name>
-	<version>15.0.4.6</version>
+	<version>15.0.4.7</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>AGPLv3</license>
 	<licenselink>https://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
 	<repo>standard</repo>
 	<description>Allows you to configure text to speech engines</description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/Text+to+Speech+Engines+Module</more-info>
 	<category>Settings</category>
 	<menuitems>
 		<ttsengines>Text To Speech Engines</ttsengines>
@@ -24,6 +25,7 @@
 	<depends>
 	</depends>
 	<changelog>
+		*15.0.4.7* Packaging of ver 15.0.4.7
 		*15.0.4.6* Related to FREEPBX-20414: removed $jobid from runRestore() 
 		*15.0.4.5* cleanup 
 		*15.0.4.4* Fixing FREEPBX-19841 Delete TTS engine from main list and from edit option
