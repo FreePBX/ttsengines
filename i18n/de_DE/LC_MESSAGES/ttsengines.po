@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-22 17:44+0530\n"
-"PO-Revision-Date: 2018-10-19 15:00+0000\n"
-"Last-Translator: Bastian Mertgen <b.mertgen@bastian-mertgen.de>\n"
+"PO-Revision-Date: 2019-04-09 14:10+0000\n"
+"Last-Translator: florian alberts <alberts@ar-systems.de>\n"
 "Language-Team: German <http://*/projects/freepbx/ttsengines/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -23,10 +23,12 @@ msgstr ""
 #: assets/js/ttsengines.js:35
 msgid " already used, please use a different Engine Name."
 msgstr ""
+" Name wird bereits verwendet, bitte verwenden Sie eine andere Bezeichnung."
 
 #: assets/js/ttsengines.js:27
 msgid " already used, please use a different Engine Path."
 msgstr ""
+" Pfad wird bereits verwendet, bitte benutzen Sie ein anderes Verzeichnis."
 
 #: views/grid.php:12
 msgid "Actions"
@@ -34,17 +36,20 @@ msgstr "Aktionen"
 
 #: views/grid.php:5 views/rnav.php:3
 msgid "Add TTS Engine"
-msgstr ""
+msgstr "Füge \"Text zu Sprache\" Funktionseinheit hinzu"
 
 #: ttsengines.i18n.php:8
 msgid "Allows you to configure text to speech engines"
-msgstr ""
+msgstr "Erlaubt Ihnen, die \"Text zu Sprache\" Funktion zu konfigurieren"
 
 #: functions.inc.php:58
 msgid ""
 "Choose either the free Flite engine (requires flite and app_flite) or the "
 "paid Cepstral engine (requires app_cepstral)"
 msgstr ""
+"Wählen Sie entweder die kostenlose Flite Funktionseinheit (setzt flite und "
+"app_flite voraus) oder die kostenpflichtige Cepstral Funktionseinheit (setzt "
+"app_cepstral voraus)"
 
 #: Ttsengines.class.php:28
 msgid "Delete"
@@ -73,6 +78,10 @@ msgid ""
 "system. After doing this the engine will be available on the text to speech "
 "page."
 msgstr ""
+"Auf dieser Seite können Sie die \"Text zu Sprache\" Funktionseinheit "
+"verwalten. Wenn Sie eine Funktionseinheit hinzufügen, geben Sie einen Namen "
+"sowie den absoluten Pfad zur Funktionseinheit auf dem System an. Danach ist "
+"sie auf der \"Text zu Sprache\" - Seite verfügbar."
 
 #: views/grid.php:10 views/rnav.php:15
 msgid "Path"
@@ -80,11 +89,11 @@ msgstr "Pfad"
 
 #: assets/js/ttsengines.js:32
 msgid "Please enter a valid Engine Name."
-msgstr ""
+msgstr "Bitte geben Sie einen gültigen Namen für die Funktionseinheit an."
 
 #: assets/js/ttsengines.js:24
 msgid "Please enter a valid Engine Path."
-msgstr ""
+msgstr "Bitte geben Sie einen gültigen Pfad für die Funktionseinheit an."
 
 #: Ttsengines.class.php:33
 msgid "Reset"
@@ -100,24 +109,29 @@ msgstr "Absenden"
 
 #: ttsengines.i18n.php:4 ttsengines.i18n.php:10
 msgid "Text To Speech Engines"
-msgstr ""
+msgstr "Text zu Sprache Funktionseinheiten"
 
 #: page.ttsengines.php:22
 msgid "Text to Speech Engines"
-msgstr ""
+msgstr "Text zu Sprache Funktionseinheiten"
 
 #: functions.inc.php:58
 msgid "Text-to-Speech Engine:"
-msgstr ""
+msgstr "Text zu Sprache Funktionseinheit:"
 
 #: views/form.php:89
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
 msgstr ""
+"Der absolute Pfad zu den Binärdateien der Funktionseinheit, z.B. /usr/sbin/"
+"magic_speech_engine."
 
 #: views/form.php:65
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
 "page so you can select which engine you want to play your text."
 msgstr ""
+"Den hier eingegebenen Namen finden Sie im Auswahlmenü auf der Seite für die "
+"Text zu Sprache Einstellungen. Dort können Sie auswählen, welche verwendet "
+"werden soll."
