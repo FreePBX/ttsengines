@@ -7,6 +7,7 @@
 	<licenselink>http://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
 	<repo>standard</repo>
 	<description>Allows you to configure text to speech engines</description>
+  	<more-info>https://wiki.freepbx.org/display/FPG/Text+to+Speech+Engines+Module</more-info>
 	<category>Settings</category>
 	<menuitems>
 		<ttsengines>Text To Speech Engines</ttsengines>
