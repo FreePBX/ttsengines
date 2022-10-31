@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-22 17:44+0530\n"
-"PO-Revision-Date: 2022-10-15 14:00+0000\n"
+"PO-Revision-Date: 2022-11-01 15:00+0000\n"
 "Last-Translator: Santiago Pioli <spioli@sangoma.com>\n"
 "Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/"
 "ttsengines/es/>\n"
@@ -51,7 +51,7 @@ msgstr ""
 
 #: Ttsengines.class.php:28
 msgid "Delete"
-msgstr "Eliminar"
+msgstr "Borrar"
 
 #: views/grid.php:11 views/rnav.php:16
 msgid "Engine"
@@ -95,7 +95,7 @@ msgstr ""
 
 #: Ttsengines.class.php:33
 msgid "Reset"
-msgstr "Restablecer"
+msgstr "Reiniciar"
 
 #: ttsengines.i18n.php:6
 msgid "Settings"
