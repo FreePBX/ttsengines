@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-22 17:44+0530\n"
-"PO-Revision-Date: 2022-11-01 15:00+0000\n"
-"Last-Translator: Santiago Pioli <spioli@sangoma.com>\n"
+"PO-Revision-Date: 2023-02-10 18:47+0000\n"
+"Last-Translator: Javier Pastor <jpastor@cerebelum.net>\n"
 "Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/"
 "ttsengines/es/>\n"
 "Language: es_ES\n"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: assets/js/ttsengines.js:35
 msgid " already used, please use a different Engine Name."
-msgstr ""
+msgstr " ya utilizado, utilice un nombre de motor diferente."
 
 #: assets/js/ttsengines.js:27
 msgid " already used, please use a different Engine Path."
-msgstr ""
+msgstr " ya utilizado, utilice una ruta de motor diferente."
 
 #: views/grid.php:12
 msgid "Actions"
@@ -67,7 +67,7 @@ msgstr "Ruta del Motor"
 
 #: views/rnav.php:2
 msgid "List TTS Engine"
-msgstr ""
+msgstr "Lista de Motor TTS"
 
 #: page.ttsengines.php:21
 msgid ""
@@ -87,11 +87,11 @@ msgstr "Ruta"
 
 #: assets/js/ttsengines.js:32
 msgid "Please enter a valid Engine Name."
-msgstr ""
+msgstr "Introduzca un Nombre de Motor válido."
 
 #: assets/js/ttsengines.js:24
 msgid "Please enter a valid Engine Path."
-msgstr ""
+msgstr "Por favor, introduzca una Ruta de Motor válida."
 
 #: Ttsengines.class.php:33
 msgid "Reset"
