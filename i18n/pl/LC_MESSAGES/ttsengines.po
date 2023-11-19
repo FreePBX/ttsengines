@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 10:29+0000\n"
-"PO-Revision-Date: 2023-11-18 17:01+0000\n"
+"PO-Revision-Date: 2023-11-19 01:10+0000\n"
 "Last-Translator: Szymon Wysokinski <szymon.wysokinski@sqspolska.pl>\n"
 "Language-Team: Polish <http://weblate.freepbx.org/projects/freepbx/"
 "ttsengines/pl/>\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: assets/js/ttsengines.js:35
 msgid " already used, please use a different Engine Name."
-msgstr ""
+msgstr " już używane, użyj innej nazwy silnika."
 
 #: assets/js/ttsengines.js:27
 msgid " already used, please use a different Engine Path."
-msgstr ""
+msgstr " już używane, użyj innej ścieżki silnika."
 
 #: views/grid.php:12
 msgid "Actions"
@@ -37,17 +37,19 @@ msgstr "Działania"
 #: views/grid.php:5
 #: views/rnav.php:3
 msgid "Add TTS Engine"
-msgstr ""
+msgstr "Dodaj silnik TTS"
 
 #: ttsengines.i18n.php:8
 msgid "Allows you to configure text to speech engines"
-msgstr ""
+msgstr "Umożliwia skonfigurowanie silników zamiany tekstu na mowę"
 
 #: functions.inc.php:58
 msgid ""
 "Choose either the free Flite engine (requires flite and app_flite) or the "
 "paid Cepstral engine (requires app_cepstral)"
 msgstr ""
+"Wybierz darmowy silnik Flite (wymaga flite i app_flite) lub płatny silnik "
+"Cepstral (wymaga app_cepstral)"
 
 #: Ttsengines.class.php:28
 msgid "Delete"
@@ -60,15 +62,15 @@ msgstr "Silnik"
 
 #: views/form.php:46
 msgid "Engine Name"
-msgstr ""
+msgstr "Nazwa silnika"
 
 #: views/form.php:77
 msgid "Engine Path"
-msgstr ""
+msgstr "Ścieżka silnika"
 
 #: views/rnav.php:2
 msgid "List TTS Engine"
-msgstr ""
+msgstr "Lista silników TTS"
 
 #: page.ttsengines.php:21
 msgid ""
@@ -77,19 +79,23 @@ msgid ""
 "system. After doing this the engine will be available on the text to speech "
 "page."
 msgstr ""
+"Na tej stronie możesz zarządzać silnikami zamiany tekstu na mowę w swoim "
+"systemie. Dodając silnik, nadajesz mu nazwę i pełną ścieżkę do silnika w "
+"systemie. Po wykonaniu tej czynności silnik będzie dostępny na stronie "
+"zamiany tekstu na mowę."
 
 #: views/grid.php:10
 #: views/rnav.php:15
 msgid "Path"
-msgstr ""
+msgstr "Ścieżka"
 
 #: assets/js/ttsengines.js:32
 msgid "Please enter a valid Engine Name."
-msgstr ""
+msgstr "Podaj prawidłową nazwę silnika."
 
 #: assets/js/ttsengines.js:24
 msgid "Please enter a valid Engine Path."
-msgstr ""
+msgstr "Podaj prawidłową ścieżkę silnika."
 
 #: Ttsengines.class.php:33
 msgid "Reset"
@@ -106,24 +112,29 @@ msgstr "Wyślij"
 #: ttsengines.i18n.php:4
 #: ttsengines.i18n.php:10
 msgid "Text To Speech Engines"
-msgstr ""
+msgstr "Silniki zamiany tekstu na mowę"
 
 #: page.ttsengines.php:22
 msgid "Text to Speech Engines"
-msgstr ""
+msgstr "Silniki zamiany tekstu na mowę"
 
 #: functions.inc.php:58
 msgid "Text-to-Speech Engine:"
-msgstr ""
+msgstr "Silnik zamiany tekstu na mowę:"
 
 #: views/form.php:89
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
 msgstr ""
+"Pełna ścieżka do pliku binarnego silnika zamiany tekstu na mowę. Na przykład:"
+" /usr/sbin/magic_speech_engine."
 
 #: views/form.php:65
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
 "page so you can select which engine you want to play your text."
 msgstr ""
+"Wprowadzona nazwa zostanie wyświetlona w polu rozwijanym na stronie zamiany "
+"tekstu na mowę, dzięki temu możesz wybrać silnik, którym chcesz odtworzyć "
+"tekst."
