@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 10:29+0000\n"
-"PO-Revision-Date: 2023-12-12 17:00+0000\n"
+"PO-Revision-Date: 2023-12-14 02:00+0000\n"
 "Last-Translator: Szymon Wysokinski <szymon.wysokinski@sqspolska.pl>\n"
 "Language-Team: Polish <http://weblate.freepbx.org/projects/freepbx/"
 "ttsengines/pl/>\n"
@@ -99,7 +99,7 @@ msgstr "Podaj prawidłową ścieżkę silnika."
 
 #: Ttsengines.class.php:33
 msgid "Reset"
-msgstr "Reset"
+msgstr "Zresetuj"
 
 #: ttsengines.i18n.php:6
 msgid "Settings"
@@ -107,7 +107,7 @@ msgstr "Ustawienia"
 
 #: Ttsengines.class.php:38
 msgid "Submit"
-msgstr "Wyślij"
+msgstr "Zatwierdź"
 
 #: ttsengines.i18n.php:4
 #: ttsengines.i18n.php:10
