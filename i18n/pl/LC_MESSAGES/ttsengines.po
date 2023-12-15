@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 10:29+0000\n"
-"PO-Revision-Date: 2023-12-14 02:00+0000\n"
+"PO-Revision-Date: 2023-12-16 09:01+0000\n"
 "Last-Translator: Szymon Wysokinski <szymon.wysokinski@sqspolska.pl>\n"
 "Language-Team: Polish <http://weblate.freepbx.org/projects/freepbx/"
 "ttsengines/pl/>\n"
@@ -112,11 +112,11 @@ msgstr "Zatwierdź"
 #: ttsengines.i18n.php:4
 #: ttsengines.i18n.php:10
 msgid "Text To Speech Engines"
-msgstr "Silniki zamiany tekstu na mowę"
+msgstr "Ustawienia TTS"
 
 #: page.ttsengines.php:22
 msgid "Text to Speech Engines"
-msgstr "Silniki zamiany tekstu na mowę"
+msgstr "Ustawienia TTS"
 
 #: functions.inc.php:58
 msgid "Text-to-Speech Engine:"
