@@ -1,7 +1,7 @@
 <module>
 	<rawname>ttsengines</rawname>
 	<name>Text To Speech Engines</name>
-	<version>16.0.3</version>
+	<version>17.0.1</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>AGPLv3</license>
 	<licenselink>https://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
@@ -20,13 +20,11 @@
         </table>
     </database>
 	<supported>
-		<version>16.0</version>
+		<version>17.0</version>
 	</supported>
 	<depends>
 	</depends>
 	<changelog>
-		*16.0.3* Packaging of ver 16.0.3
-		*16.0.2* Packaging of ver 16.0.2
-		*16.0.1alpha* 16.0.1 alpha release
+		*17.0.1* 17.0.1  release
 	</changelog>
 </module>
