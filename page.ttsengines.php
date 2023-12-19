@@ -1,19 +1,20 @@
 <?php
 $ttsengines = FreePBX::Ttsengines();
 if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed');}
-	$edit = $_GET['edit'];
+	$edit = isset($_GET['edit'])?$_GET['edit']:'';
 	$enginename = false;
 	$enginepath = false;
 	// Handle adding/updating an engine
-	if (((isset($_REQUEST['delete']) && $_REQUEST['delete']) || ($_REQUEST['action'] == 'delete'))
+	if (((isset($_REQUEST['delete']) && $_REQUEST['delete'])
+		|| (isset($_REQUEST['action']) && $_REQUEST['action'] == 'delete'))
 		&& isset($_REQUEST['engineid'])){
 		ttsengines_delete_engine($_REQUEST['engineid']);
 	}
-	else if ($_POST['edit']){
+	else if (isset($_POST['edit']) && $_POST['edit']){
 		$ttsengines->update($_POST['engineid'], $_POST['enginename'], $_POST['enginepath']);
 		redirect_standard();
 	}
-	else if ($_POST['addengine']){
+	else if (isset($_POST['addengine']) && $_POST['addengine']){
 		$ttsengines->add($_POST['enginename'], $_POST['enginepath']);
 		redirect_standard();
 	}
