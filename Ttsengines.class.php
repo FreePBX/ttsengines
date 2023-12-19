@@ -55,7 +55,7 @@ class Ttsengines extends FreePBX_Helpers implements BMO {
 	$stmt = $this->FreePBX->Database->prepare($sql);
 	$stmt->execute(array(':id' => $id));
 	$ret = $stmt->fetchAll(PDO::FETCH_ASSOC);
-	return $ret[0];
+	return isset($ret[0])?$ret[0]:array();
   }
 	public function ajaxRequest($command, &$setting) {
 		if($command === 'getJSON'){
