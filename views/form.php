@@ -16,6 +16,10 @@ if($all_engines){
 var enginepaths = [];
 var enginenames = [];
 <?php
+if (isset($error)) {
+    echo "var is_error = true;";
+    echo 'var path_error = _("Engine Path ' . $enginepath . ' does not exist.");';
+}
 if(!empty($enginepaths)){
 	echo "enginepaths = " . json_encode($enginepaths) . ";";
 }

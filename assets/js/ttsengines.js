@@ -16,6 +16,10 @@ if($("#enginename").val() == "custom") {
 }
 $(document).ready(function() {
 	var theForm = document.frm_ttsengines;
+    
+    if (is_error) {
+        warnInvalid(theForm.enginepath, path_error);
+    }
 	if(typeof theForm !== 'undefined'){
 		$('form').unbind( "submit");
 		$('form[name="frm_ttsengines"]').submit(function() {
@@ -25,7 +29,7 @@ $(document).ready(function() {
 			}else{
 				if($.inArray(tmp_path, enginepaths) != -1){
 					return warnInvalid(theForm.enginepath, tmp_path  + _(" already used, please use a different Engine Path."));
-			        }
+			    }
 		 	}
 			var tmp_name = theForm.enginename.value.trim();
 			if (tmp_name == ""){
@@ -40,7 +44,7 @@ $(document).ready(function() {
 		$('form').submit(function(e) {
 			if (!e.isDefaultPrevented()){
 				$(".destdropdown2").filter(".hidden").remove();
-		        }
+		    }
 		});
 	}
 });
