@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-19 05:45-0500\n"
+"POT-Creation-Date: 2025-02-06 23:59-0500\n"
 "PO-Revision-Date: 2017-07-17 13:40+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese <http://weblate.freepbx.org/projects/freepbx/"
@@ -21,11 +21,11 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2.4\n"
 
-#: assets/js/ttsengines.js:35
+#: assets/js/ttsengines.js:39
 msgid " already used, please use a different Engine Name."
 msgstr ""
 
-#: assets/js/ttsengines.js:27
+#: assets/js/ttsengines.js:31
 msgid " already used, please use a different Engine Path."
 msgstr ""
 
@@ -49,11 +49,11 @@ msgstr "Xóa"
 msgid "Engine"
 msgstr "Máy"
 
-#: views/form.php:46
+#: views/form.php:50
 msgid "Engine Name"
 msgstr "Tên máy"
 
-#: views/form.php:77
+#: views/form.php:81
 msgid "Engine Path"
 msgstr "Đường dẫn của máy"
 
@@ -61,7 +61,7 @@ msgstr "Đường dẫn của máy"
 msgid "List TTS Engine"
 msgstr ""
 
-#: page.ttsengines.php:23
+#: page.ttsengines.php:32
 msgid ""
 "On this page you can manage text to speech engines on your system. When you "
 "add an engine you give it a name, and the full path to the engine on your "
@@ -76,11 +76,11 @@ msgstr ""
 msgid "Path"
 msgstr "Đường dẫn"
 
-#: assets/js/ttsengines.js:32
+#: assets/js/ttsengines.js:36
 msgid "Please enter a valid Engine Name."
 msgstr ""
 
-#: assets/js/ttsengines.js:24
+#: assets/js/ttsengines.js:28
 msgid "Please enter a valid Engine Path."
 msgstr ""
 
@@ -100,11 +100,11 @@ msgstr "Gửi đi"
 msgid "Text To Speech Engines"
 msgstr "Các máy tổng hợp giọng nói Text to Speech"
 
-#: page.ttsengines.php:24
+#: page.ttsengines.php:33
 msgid "Text to Speech Engines"
 msgstr "Các máy tổng hợp giọng nói Text to Speech"
 
-#: views/form.php:89
+#: views/form.php:93
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
@@ -112,7 +112,7 @@ msgstr ""
 "Đường dẫn đầy đủ đến hệ nhị phân máy tổng hợp giọng nói TTS. Ví dụ: /usr/"
 "sbin/magic_speech_engine."
 
-#: views/form.php:65
+#: views/form.php:69
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
 "page so you can select which engine you want to play your text."
