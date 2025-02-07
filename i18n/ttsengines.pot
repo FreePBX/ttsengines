@@ -3,13 +3,13 @@
 # For licensing information, please see the file named LICENSE located in the module directory
 #
 # FreePBX language template for ttsengines
-# Copyright (C) 2008-2023 Sangoma Technologies, Inc.
+# Copyright (C) 2008-2025 Sangoma Technologies, Inc.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-19 05:48-0500\n"
+"POT-Creation-Date: 2025-02-06 23:59-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: assets/js/ttsengines.js:35
+#: assets/js/ttsengines.js:39
 msgid " already used, please use a different Engine Name."
 msgstr ""
 
-#: assets/js/ttsengines.js:27
+#: assets/js/ttsengines.js:31
 msgid " already used, please use a different Engine Path."
 msgstr ""
 
@@ -48,11 +48,11 @@ msgstr ""
 msgid "Engine"
 msgstr ""
 
-#: views/form.php:46
+#: views/form.php:50
 msgid "Engine Name"
 msgstr ""
 
-#: views/form.php:77
+#: views/form.php:81
 msgid "Engine Path"
 msgstr ""
 
@@ -60,7 +60,7 @@ msgstr ""
 msgid "List TTS Engine"
 msgstr ""
 
-#: page.ttsengines.php:23
+#: page.ttsengines.php:32
 msgid ""
 "On this page you can manage text to speech engines on your system. When you "
 "add an engine you give it a name, and the full path to the engine on your "
@@ -73,11 +73,11 @@ msgstr ""
 msgid "Path"
 msgstr ""
 
-#: assets/js/ttsengines.js:32
+#: assets/js/ttsengines.js:36
 msgid "Please enter a valid Engine Name."
 msgstr ""
 
-#: assets/js/ttsengines.js:24
+#: assets/js/ttsengines.js:28
 msgid "Please enter a valid Engine Path."
 msgstr ""
 
@@ -98,17 +98,17 @@ msgstr ""
 msgid "Text To Speech Engines"
 msgstr ""
 
-#: page.ttsengines.php:24
+#: page.ttsengines.php:33
 msgid "Text to Speech Engines"
 msgstr ""
 
-#: views/form.php:89
+#: views/form.php:93
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
 msgstr ""
 
-#: views/form.php:65
+#: views/form.php:69
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
 "page so you can select which engine you want to play your text."

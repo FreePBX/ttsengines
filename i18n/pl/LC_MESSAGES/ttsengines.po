@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-19 05:45-0500\n"
+"POT-Creation-Date: 2025-02-06 23:59-0500\n"
 "PO-Revision-Date: 2023-12-16 09:01+0000\n"
 "Last-Translator: Szymon Wysokinski <szymon.wysokinski@sqspolska.pl>\n"
 "Language-Team: Polish <http://weblate.freepbx.org/projects/freepbx/"
@@ -22,11 +22,11 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.0.1\n"
 
-#: assets/js/ttsengines.js:35
+#: assets/js/ttsengines.js:39
 msgid " already used, please use a different Engine Name."
 msgstr " już używane, użyj innej nazwy silnika."
 
-#: assets/js/ttsengines.js:27
+#: assets/js/ttsengines.js:31
 msgid " already used, please use a different Engine Path."
 msgstr " już używane, użyj innej ścieżki silnika."
 
@@ -50,11 +50,11 @@ msgstr "Usuń"
 msgid "Engine"
 msgstr "Silnik"
 
-#: views/form.php:46
+#: views/form.php:50
 msgid "Engine Name"
 msgstr "Nazwa silnika"
 
-#: views/form.php:77
+#: views/form.php:81
 msgid "Engine Path"
 msgstr "Ścieżka silnika"
 
@@ -62,7 +62,7 @@ msgstr "Ścieżka silnika"
 msgid "List TTS Engine"
 msgstr "Lista silników TTS"
 
-#: page.ttsengines.php:23
+#: page.ttsengines.php:32
 msgid ""
 "On this page you can manage text to speech engines on your system. When you "
 "add an engine you give it a name, and the full path to the engine on your "
@@ -78,11 +78,11 @@ msgstr ""
 msgid "Path"
 msgstr "Ścieżka"
 
-#: assets/js/ttsengines.js:32
+#: assets/js/ttsengines.js:36
 msgid "Please enter a valid Engine Name."
 msgstr "Podaj prawidłową nazwę silnika."
 
-#: assets/js/ttsengines.js:24
+#: assets/js/ttsengines.js:28
 msgid "Please enter a valid Engine Path."
 msgstr "Podaj prawidłową ścieżkę silnika."
 
@@ -102,11 +102,11 @@ msgstr "Zatwierdź"
 msgid "Text To Speech Engines"
 msgstr "Ustawienia TTS"
 
-#: page.ttsengines.php:24
+#: page.ttsengines.php:33
 msgid "Text to Speech Engines"
 msgstr "Ustawienia TTS"
 
-#: views/form.php:89
+#: views/form.php:93
 msgid ""
 "The full path to the binary of your text to speech engine. For example: /usr/"
 "sbin/magic_speech_engine."
@@ -114,7 +114,7 @@ msgstr ""
 "Pełna ścieżka do pliku binarnego silnika zamiany tekstu na mowę. Na "
 "przykład: /usr/sbin/magic_speech_engine."
 
-#: views/form.php:65
+#: views/form.php:69
 msgid ""
 "The name you enter will be shown in a drop down box on the Text to Speech "
 "page so you can select which engine you want to play your text."
