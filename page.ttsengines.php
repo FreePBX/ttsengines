@@ -11,12 +11,21 @@ if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed');}
 		ttsengines_delete_engine($_REQUEST['engineid']);
 	}
 	else if (isset($_POST['edit']) && $_POST['edit']){
-		$ttsengines->update($_POST['engineid'], $_POST['enginename'], $_POST['enginepath']);
-		redirect_standard();
+        if (is_file($_POST['enginepath'])) {
+		    $ttsengines->update($_POST['engineid'], $_POST['enginename'], $_POST['enginepath']);
+		    redirect_standard();
+        } else {
+            $form_error = true;
+        }
 	}
 	else if (isset($_POST['addengine']) && $_POST['addengine']){
-		$ttsengines->add($_POST['enginename'], $_POST['enginepath']);
-		redirect_standard();
+        if (is_file($_POST['enginepath'])) {
+            $ttsengines->add($_POST['enginename'], $_POST['enginepath']);
+		    redirect_standard();
+        } else {
+            $form_error = true;
+        }
+		
 	}
 
 	$engines = $ttsengines->listAll();
@@ -32,8 +41,17 @@ if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed');}
 			$vars['enginepath'] = isset($data['path'])?$data['path']:'';
 			$vars['delurl'] = '?display=ttsengines&action=delete&engineid='.$edit;
 			$vars['edit'] = $edit;
+            if (!is_file($vars['enginepath'])) {
+                $vars['error'] = true;
+            }
 		}
 		$vars['all_engines'] = $engines;
+        // engine path error on adding or updating
+        if (isset($form_error)) {
+            $vars['error'] = true;
+            $vars['enginename'] = $_POST['enginename'];
+            $vars['enginepath'] = $_POST['enginepath'];
+        }
 
 		$content = load_view(__DIR__.'/views/form.php',$vars);
 	}else{

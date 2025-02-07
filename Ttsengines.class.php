@@ -75,7 +75,17 @@ class Ttsengines extends FreePBX_Helpers implements BMO {
 		$sql = "SELECT * FROM ttsengines";
 		$stmt = $this->FreePBX->Database->prepare($sql);
 		$stmt->execute();
-		return $stmt->fetchAll(PDO::FETCH_ASSOC);
+		$engines = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        
+        $all_engines = [];
+        if(!empty($engines)) {
+            foreach($engines as $engine) {
+                if(is_file($engine['path'])) {
+                    $all_engines[] = $engine;
+                }
+            }
+        }
+        return $all_engines;
 	}
 
 	public function add($name, $path){
