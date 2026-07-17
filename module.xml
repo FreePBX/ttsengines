@@ -1,7 +1,7 @@
 <module>
 	<rawname>ttsengines</rawname>
 	<name>Text To Speech Engines</name>
-	<version>17.0.2</version>
+	<version>18.0.1</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>AGPLv3</license>
 	<licenselink>https://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
@@ -20,12 +20,11 @@
         </table>
     </database>
 	<supported>
-		<version>17.0</version>
+		<version>18.0</version>
 	</supported>
 	<depends>
 	</depends>
 	<changelog>
-		*17.0.2* Github #627 Fix issues with TTS module dialplan generation 
-		*17.0.1* 17.0.1  release
+		*18.0.1* initial release
 	</changelog>
 </module>
