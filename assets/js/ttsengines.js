@@ -16,11 +16,10 @@ if($("#enginename").val() == "custom") {
 }
 $(document).ready(function() {
 	var theForm = document.frm_ttsengines;
-    
-    if (is_error) {
-        warnInvalid(theForm.enginepath, path_error);
-    }
 	if(typeof theForm !== 'undefined'){
+		if (typeof is_error !== 'undefined' && is_error) {
+			warnInvalid(theForm.enginepath, path_error);
+		}
 		$('form').unbind( "submit");
 		$('form[name="frm_ttsengines"]').submit(function() {
 			var tmp_path = theForm.enginepath.value.trim();
