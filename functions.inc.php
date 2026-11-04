@@ -24,6 +24,6 @@ function ttsengines_delete_engine($engineid){
 
 function ttsengines_get_engine_path($enginename){
         global $db;
-        $sql = "select path from ttsengines where name = '$enginename'";
-        return $db->getRow($sql, DB_FETCHMODE_ASSOC);
+        $sql = "SELECT path FROM ttsengines WHERE name = ?";
+        return $db->getRow($sql, array($enginename), DB_FETCHMODE_ASSOC);
 }
